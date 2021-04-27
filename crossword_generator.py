@@ -12,8 +12,8 @@ class Crossword(object):
         self.boxes = dict()
         for i in range(cols):
             for j in range(cols):
-                # boxes[(i,j)]: [whether filled; word it belongs to; whether horizontal (1) or not (0) or N/A (-1); whether it is the end of a word]
-                self.boxes[(i,j)] = [False,"",-1,False]  
+                # boxes[(i,j)]: [whether filled; word it belongs to; whether horizontal (1) or not (0) or N/A (-1); whether it is the beginning (0) or end (2) of a word (1 if inside)]
+                self.boxes[(i,j)] = [False,"",-1,-1]  
 
     def score(self, row, col, word, horizontal): 
         curr_score = 0 #Score = how many intersections there are with existing words. Returns NaN if the word does not fit 
@@ -26,7 +26,7 @@ class Crossword(object):
                 if (col>0) and self.boxes[(row,col-1)][0]==True: 
                     return np.nan
                 # if there's a final letter from horiz word 
-                if (self.boxes[(row,col+i)][2]==1) and (self.boxes[(row,col+i)][3]==True):
+                if (self.boxes[(row,col+i)][2]==1) and (self.boxes[(row,col+i)][3]==2):
                     return np.nan
                 if self.current_build_visualizer[row][col + i] == word[i]:
                     curr_score += 1
@@ -44,7 +44,7 @@ class Crossword(object):
                 if (col>0) and self.boxes[(row+i,col-1)][0]==True: 
                     return np.nan
                 # if there's a final letter from vertical word 
-                if (self.boxes[(row+i,col)][2]==0) and (self.boxes[(row+i,col)][3]==True):
+                if (self.boxes[(row+i,col)][2]==0) and (self.boxes[(row+i,col)][3]==2):
                     print_out((word,entry.word),p_flag)
                     return np.nan
                 if self.current_build_visualizer[row + i][col] == word[i]:
@@ -97,22 +97,28 @@ class Crossword(object):
         if horizontal: 
             print('adding horizontal entry')
             for i in range(col,col+len(entry.word)):
-                if i==(col+len(entry.word)-1):
+                if i==0:
                     self.current_build_visualizer[row][i] = entry.word[i-col]
-                    self.boxes[(row,i)] = [True,entry.word,1,True]
+                    self.boxes[(row,i)] = [True,entry.word,1,0]
+                elif i==(col+len(entry.word)-1):
+                    self.current_build_visualizer[row][i] = entry.word[i-col]
+                    self.boxes[(row,i)] = [True,entry.word,1,2]
                 else:
                     self.current_build_visualizer[row][i] = entry.word[i-col]
-                    self.boxes[(row,i)] = [True,entry.word,1,False]
+                    self.boxes[(row,i)] = [True,entry.word,1,1]
             # self.current_build_visualizer[row][col:(col+len(entry.word))]  = entry.word
         else: 
             print('adding vertical entry')
             for i in range(len(entry.word)):
-                if i==(len(entry.word)-1):
+                if i==0:
                     self.current_build_visualizer[row + i][col]  = entry.word[i]
-                    self.boxes[(row+i,col)] = [True,entry.word,0,True]
+                    self.boxes[(row+i,col)] = [True,entry.word,0,0]
+                elif i==(len(entry.word)-1):
+                    self.current_build_visualizer[row + i][col]  = entry.word[i]
+                    self.boxes[(row+i,col)] = [True,entry.word,0,2]
                 else:
                     self.current_build_visualizer[row + i][col]  = entry.word[i]
-                    self.boxes[(row+i,col)] = [True,entry.word,0,False]
+                    self.boxes[(row+i,col)] = [True,entry.word,0,1]
         print(self.current_build_visualizer)
 
     def print_data(self):
