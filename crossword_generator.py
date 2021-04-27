@@ -21,13 +21,23 @@ class Crossword(object):
             if col + len(word) > self.cols:
                 return np.nan
             for i in range(len(word)):
-                if (row>0) and self.boxes[(row-1,col)][0]==True:
+                # anything in the box to the left 
+                if (col>0) and self.boxes[(row,col-1)][0]==True:
                     return np.nan
-                if (col>0) and self.boxes[(row,col-1)][0]==True: 
+                # final letter above or initial letter below belonging to a vertical word, or run into another horizontal word 
+                if ((row>0) and self.boxes[(row-1,col+i)][3]==2 and self.boxes[(row-1,col+i)][2]==0) or (row+1<self.cols and self.boxes[(row+1,col+i)][3]==0 and self.boxes[(row+1,col+i)][2]==0) or (self.boxes[(row,col+i)][2]==1):
                     return np.nan
-                # if there's a final letter from horiz word 
-                if (self.boxes[(row,col+i)][2]==1) and (self.boxes[(row,col+i)][3]==2):
+                # anything in the box after the end of the word
+                if (col+len(word)+1<self.cols) and self.boxes[(row,col+len(word))][0]==True:
                     return np.nan
+
+                # if (row>0) and self.boxes[(row-1,col)][0]==True:
+                #     return np.nan
+                # if (col>0) and self.boxes[(row,col-1)][0]==True: 
+                #     return np.nan
+                # # if there's a final letter from horiz word 
+                # if (self.boxes[(row,col+i)][2]==1) and (self.boxes[(row,col+i)][3]==2):
+                #     return np.nan
                 if self.current_build_visualizer[row][col + i] == word[i]:
                     curr_score += 1
                 elif self.current_build_visualizer[row][col + i] == 0:
@@ -39,14 +49,23 @@ class Crossword(object):
             if row + len(word) > self.rows: 
                 return np.nan
             for i in range(len(word)):
+                # anything in the box above
                 if (row>0) and self.boxes[(row-1,col)][0]==True:
                     return np.nan
-                if (col>0) and self.boxes[(row+i,col-1)][0]==True: 
+                # final letter to the left or initial letter to the right belonging to horizontal word, or run into another vertical word
+                if ((col>0) and self.boxes[(row+i,col-1)][3]==2 and self.boxes[(row+i,col-1)][2]==1) or (col+1<self.cols and self.boxes[(row+i,col+1)][3]==0 and self.boxes[(row+i,col+1)][2]==1) or (self.boxes[(row,col+i)][2]==0):
                     return np.nan
-                # if there's a final letter from vertical word 
-                if (self.boxes[(row+i,col)][2]==0) and (self.boxes[(row+i,col)][3]==2):
-                    print_out((word,entry.word),p_flag)
+                # anything in the box below the end of the word
+                if (row+len(word)+1<self.cols) and self.boxes[(row+len(word),col)][0]==True:
                     return np.nan
+                # if (row>0) and self.boxes[(row-1,col)][0]==True:
+                #     return np.nan
+                # if (col>0) and self.boxes[(row+i,col-1)][0]==True: 
+                #     return np.nan
+                # # if there's a final letter from vertical word 
+                # if (self.boxes[(row+i,col)][2]==0) and (self.boxes[(row+i,col)][3]==2):
+                #     print_out((word,entry.word),p_flag)
+                #     return np.nan
                 if self.current_build_visualizer[row + i][col] == word[i]:
                     curr_score += 1
                 elif self.current_build_visualizer[row + i][col] == 0:
@@ -134,8 +153,11 @@ class Crossword(object):
                 s += temp
             print(s)
         print("\n")
-        for entry in self.current_build: 
-            print(entry.word + ": " + entry.clue + "; At " + str(entry.start_row) + "," + str(entry.start_col) + " Horizontal = " + str(entry.horizontal))
+        for entry in self.current_build:
+            ori = " (Horizontal)"
+            if not entry.horizontal:
+                ori = " (Vertical)"
+            print(entry.word + ": " + entry.clue + "; At " + str(entry.start_row) + "," + str(entry.start_col) + ori)
         print("\n")
 
 # Class for each entry in the crossword
