@@ -154,10 +154,10 @@ class Crossword(object):
             print(s)
         print("\n")
         for entry in self.current_build:
-            ori = " (Horizontal)"
+            ori = " - Horizontal"
             if not entry.horizontal:
-                ori = " (Vertical)"
-            print(entry.word + ": " + entry.clue + "; At " + str(entry.start_row) + "," + str(entry.start_col) + ori)
+                ori = " - Vertical"
+            print(entry.word + ": " + entry.clue + "; At " + "(" + str(entry.start_row) + "," + str(entry.start_col) + ")" + ori)
         print("\n")
 
 # Class for each entry in the crossword
@@ -185,7 +185,7 @@ def organize_words(words, crossword_size):
     words.sort(key=lambda x: len(x[0]), reverse=True)
 
 wordbank = [['abracadabra', 'filler'], ["apple", 'a fruit'], ['ant', 'a pest'], ['task', 'something to do'], ['water', 'a beverage'], ['pretzel', 'a snack']]
-crossword_size = 7
+crossword_size = 5
 
 ######## Debugging #########
 
