@@ -1,6 +1,10 @@
 import random
 import numpy as np
 
+crossword_size = 10
+frequency_multiplier = 1
+length_multiplier = 1
+position_multiplier = 1
 class Crossword(object):
     def __init__(self, cols, rows, wordbank):
         self.cols = cols #Number of cols
@@ -92,7 +96,7 @@ class Crossword(object):
                         for horizontal in [False, True]:
                             scores = np.zeros(len(self.wordbank))
                             for i, word in enumerate(self.wordbank): 
-                                scores[i] = word.points + self.score(row, col, word.word, horizontal)
+                                scores[i] = word.points + position_multiplier*self.score(row, col, word.word, horizontal)
                             try:
                                 i_max = np.nanargmax(scores)
                             except ValueError: #nanargmax returns ValueError when presented with a slice of only NaN
@@ -198,7 +202,7 @@ def organize_words(wordbank, crossword_size):
 
 def score_words(wordbank):
     for word in wordbank:
-        word.points = len(word.word) + float(word.usagefrequency)
+        word.points = length_multiplier*len(word.word) + frequency_multiplier*float(word.usagefrequency)
         
 
 # List of words in the wordbank in the from [word, definition, frequency ranking]
@@ -212,8 +216,6 @@ def create_wordbank():
             split = unprocessed_word.split('$')
             wordbank.append(WordBankEntry(split[0], split[1], split[2], split[3]))
             unprocessed_word = f.readline()
-
-crossword_size = 10
 
 ######## Debugging #########
 
