@@ -2,10 +2,10 @@ import random
 import numpy as np
 
 class Crossword(object):
-    def __init__(self, cols, rows, words):
+    def __init__(self, cols, rows, wordbank):
         self.cols = cols #Number of cols
         self.rows = rows #Number of rows
-        self.words = words #List of words
+        self.wordbank = wordbank #List of words
         self.current_build = [] #All the words currently in the crossword
         self.current_build_visualizer = [[0] * cols for i in range(rows)] #A matrix representation of crossword. 0 represents a space
         self.end_build = False
@@ -53,6 +53,7 @@ class Crossword(object):
                 if (row>0) and self.boxes[(row-1,col)][0]==True:
                     return np.nan
                 # final letter to the left or initial letter to the right belonging to horizontal word, or run into another vertical word
+                # @TODO i think there's a bug in this next line
                 if ((col>0) and self.boxes[(row+i,col-1)][3]==2 and self.boxes[(row+i,col-1)][2]==1) or (col+1<self.cols and self.boxes[(row+i,col+1)][3]==0 and self.boxes[(row+i,col+1)][2]==1) or (self.boxes[(row,col+i)][2]==0):
                     return np.nan
                 # anything in the box below the end of the word
@@ -78,20 +79,20 @@ class Crossword(object):
         print_out(self.current_build_visualizer,p_flag)
         print_out("enter build",p_flag)
         while not self.end_build: 
-            if len(self.current_build) == 0: #For the first word, add the longest word that fits 
-                for word in self.words: 
-                    if len(word[0]) <= self.cols:
-                        first_word = Entry(word[0], word[1])
+            if len(self.current_build) == 0: #For the first word, add the highest-scoring word that fits 
+                for word in self.wordbank: 
+                    if len(word.word) <= self.cols:
+                        first_word = Entry(word.word, word.type, word.clue)
                         self.add(first_word, 0, 0, True)
-                        self.words.remove(word)
+                        self.wordbank.remove(word)
                         break
             else: 
                 for row in range(self.rows):
                     for col in range(self.cols):
                         for horizontal in [False, True]:
-                            scores = np.zeros(len(self.words))
-                            for i, word in enumerate(self.words): 
-                                scores[i] = self.score(row, col, word[0], horizontal)
+                            scores = np.zeros(len(self.wordbank))
+                            for i, word in enumerate(self.wordbank): 
+                                scores[i] = word.points + self.score(row, col, word.word, horizontal)
                             try:
                                 i_max = np.nanargmax(scores)
                             except ValueError: #nanargmax returns ValueError when presented with a slice of only NaN
@@ -99,11 +100,11 @@ class Crossword(object):
                             ############## CHECK TO MAKE SURE THIS IS RESOLVED
                             if i_max < -1000:
                                 continue
-                            print_out(self.words[i_max][0],p_flag)
+                            print_out(self.wordbank[i_max].word,p_flag)
                             print_out((row,col),p_flag)
-                            new_word = Entry(self.words[i_max][0], self.words[i_max][1])
+                            new_word = Entry(self.wordbank[i_max].word, self.wordbank[i_max].type, self.wordbank[i_max].clue)
                             self.add(new_word, row, col, horizontal)
-                            self.words.pop(i_max)
+                            self.wordbank.pop(i_max)
                 self.end_build = True # Doesn't really do anything right now but could probably use this as some sort of "timeout" break switch somewhere
 
     #Add an entry to the board
@@ -161,9 +162,20 @@ class Crossword(object):
         print("\n")
 
 # Class for each entry in the crossword
-class Entry(object): 
-    def __init__(self, word, clue):
+
+class WordBankEntry(object):
+    def __init__(self, word, wordtype, clue, usage):
         self.word = word
+        self.type = wordtype
+        self.clue = clue
+        self.usagefrequency = usage
+        self.points = None
+
+
+class Entry(object): 
+    def __init__(self, word, wordtype, clue):
+        self.word = word
+        self.type = wordtype
         self.clue = clue
         self.start_row = None
         self.start_col = None
@@ -179,13 +191,29 @@ class Square(object):
         self.final = None
 
 # shuffle before starting, remove words that will not fit in the crossword to save computation time
-def organize_words(words, crossword_size):
-    words[:] = [word for word in words if len(word[0]) <= crossword_size]
-    random.shuffle(words)
-    words.sort(key=lambda x: len(x[0]), reverse=True)
+def organize_words(wordbank, crossword_size):
+    wordbank[:] = [word for word in wordbank if len(word.word) <= crossword_size]
+    random.shuffle(wordbank)
+    wordbank.sort(key=lambda x: x.points, reverse=True)
 
-wordbank = [['abracadabra', 'filler'], ["apple", 'a fruit'], ['ant', 'a pest'], ['task', 'something to do'], ['water', 'a beverage'], ['pretzel', 'a snack']]
-crossword_size = 5
+def score_words(wordbank):
+    for word in wordbank:
+        word.points = len(word.word) + float(word.usagefrequency)
+        
+
+# List of words in the wordbank in the from [word, definition, frequency ranking]
+wordbank = []
+
+def create_wordbank():
+    with open("wordbank_processed.txt", 'r') as f: 
+        unprocessed_word = f.readline()[:-1]
+        while unprocessed_word:
+            print(unprocessed_word)
+            split = unprocessed_word.split('$')
+            wordbank.append(WordBankEntry(split[0], split[1], split[2], split[3]))
+            unprocessed_word = f.readline()
+
+crossword_size = 10
 
 ######## Debugging #########
 
@@ -196,8 +224,11 @@ def print_out(x,flag):
 p_flag = False # flag for printing
 
 ###### END Debugging #######
-
+create_wordbank()
+score_words(wordbank)
 organize_words(wordbank, crossword_size)
+for word in wordbank:
+    print(word.word + " " + word.type + " " + word.clue + " " + str(word.points) +"\n")
 a = Crossword(crossword_size, crossword_size, wordbank)
 a.build()
 a.print_data()

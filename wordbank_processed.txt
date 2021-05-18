@@ -1,0 +1,823 @@
+ability$Noun$the quality of being able to perform; a quality that permits or facilitates achievement or accomplishment$6.4017009961821545
+able$Adjective$(usually followed by `to'$5.721873241400187
+about$Adjective$on the move$3.0881360887005513
+above$Adjective$appearing earlier in the same text$5.4743852854094746
+accept$Verb$consider or hold as true$6.553842264131548
+according$Adjective$(followed by `to'$6.088295241757446
+account$Verb$be the sole or primary factor in the existence, acquisition, supply, or disposal of something$5.1126050015345745
+across$Adverb$to the opposite side$6.047327836395587
+action$Noun$something done (usually as opposed to something said$5.347883997268176
+activity$Noun$any specific behavior$6.012075909994635
+actually$Adverb$in actual fact$6.125163968456326
+address$Verb$speak to$4.788903361652433
+administration$Noun$a method of tending to or managing the affairs of a some group of people (especially the group's business affairs$6.0340666785975605
+admit$Verb$declare to be true or admit the existence or reality or truth of$7.667568749312958
+adult$Noun$a fully developed person from maturity onward$5.827627704767433
+affect$Verb$have an effect upon$6.993582631400085
+after$Adverb$happening at a time subsequent to a reference time$4.346372536824548
+agency$Noun$an administrative unit of government$6.008642747565285
+agent$Noun$an active and efficient cause; capable of producing a certain effect$6.3167249841904995
+agree$Verb$be in accord; be in agreement$6.477597125427834
+agreement$Noun$the statement (oral or written$5.698838827593799
+ahead$Adjective$having the leading position or higher score in a contest$6.8940057969323245
+allow$Verb$make it possible through a specific action or lack of action for something to happen$6.159086014805812
+almost$Adverb$(of actions or states$6.167721601733146
+alone$Adjective$isolated from others$6.624777898741184
+along$Adverb$with a forward motion$5.968154067805662
+already$Adverb$prior to a specified or implied time$5.727834753915721
+also$Adverb$in addition$3.726645720240912
+always$Adverb$at all times; all the time and on every occasion$5.56923458526575
+american$Noun$a native or inhabitant of the United States$4.960013885914301
+amount$Noun$a quantity of money$5.878039552897333
+analysis$Noun$an investigation of the component parts of a whole and their relations in making up the whole$5.591760034688151
+animal$Adjective$marked by the appetites and passions of the body$6.223197049760788
+another$Adjective$any of various alternatives; some other$5.166397547937246
+answer$Verb$react verbally$6.1938200260161125
+appear$Verb$give a certain impression or have a certain outward aspect$6.560701386092012
+apply$Verb$put into service; make work or employ for a particular purpose or for its inherent or natural purpose$6.050611730529541
+approach$Verb$move towards$6.2041810510236735
+area$Noun$a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography$4.802801081563088
+argue$Verb$present reasons and arguments$7.6999438246577006
+around$Adverb$in the area or vicinity$5.256777860100623
+arrive$Verb$reach a destination; arrive by movement or progress$7.4764508962850105
+article$Verb$bind by a contract; especially for a training period$5.225567713439471
+artist$Noun$a person whose creative work shows sensitivity and imagination$6.14963288129035
+assume$Verb$take to be the case or to be true; accept without verification or proof$7.05086710685764
+attack$Noun$(military$6.70860112469072
+attention$Noun$the process whereby a person concentrates on some features of the environment to the (relative$6.527272137176216
+attorney$Noun$a professional person authorized to practice law; conducts lawsuits or gives legal advice$6.638628608181024
+audience$Noun$a gathering of spectators or listeners at a (usually public$6.991088675092897
+author$Noun$writes (books or stories or articles or the like$5.24442804593259
+authority$Noun$the power or right to give orders or make decisions$6.310672074930124
+available$Adjective$obtainable or accessible and ready for use or service$4.32273600446995
+avoid$Verb$stay clear from; keep away from; keep out of the way of someone or something$6.690355233085408
+away$Adverb$from a particular thing or place or position (`forth' is obsolete$5.687710845246322
+baby$Noun$a very young child (birth to 1 year$5.649552924951092
+back$Noun$the posterior part of a human (or animal$4.017200343523835
+ball$Noun$round object that is hit or thrown or kicked in games$6.5510833768026195
+bank$Verb$tip laterally$5.883022865268806
+base$Noun$installation from which a military force initiates operations$5.988634305339273
+beat$Noun$a regular route for a sentry or policeman$6.90968972001702
+beautiful$Adjective$delighting the senses or exciting intellectual or emotional admiration$6.289770836574284
+become$Verb$enter or assume a certain state or condition$5.627161977136384
+before$Adverb$earlier in time; previously$4.719670964679776
+begin$Verb$take the first step or steps in carrying out an action$6.512473066411846
+behavior$Noun$manner of acting or controlling yourself$6.7878520131716735
+behind$Noun$the fleshy part of the human body that you sit on$6.369382861635198
+believe$Verb$accept as true; take to be true$6.057142505385075
+benefit$Noun$financial assistance in time of need$6.474081582758382
+best$Noun$the supreme effort one can make$4.352182518111363
+better$Adjective$(comparative of `good'$5.387453897847294
+between$Adverb$in the interval$4.826599528162504
+beyond$Adverb$farther along in space or time or degree$6.480599164005425
+bill$Verb$demand payment$5.819112058482351
+billion$Adjective$denoting a quantity consisting of one thousand million items or units in the United States$6.803145691352892
+black$Noun$the quality or state of the achromatic color of least lightness (bearing the least resemblance to white$4.862727528317975
+blood$Verb$smear with blood, as in a hunting initiation rite, where the face of a person is smeared with the blood of the kill$6.242462910299243
+blue$Noun$blue color or pigment; resembling the color of the clear sky in the daytime$5.580570328066483
+board$Noun$a committee having supervisory powers$5.07311688514306
+body$Verb$invest with or as with a body; give body to$5.510224532790143
+book$Noun$a written work or composition that has been published (printed on pages bound together$4.486076097372589
+born$Verb$cause to be born$6.394561116251238
+both$Adjective$(used with count nouns$4.951342376648859
+break$Verb$terminate$6.417420039812802
+bring$Verb$take something or somebody with oneself somewhere$6.307019978601675
+brother$Noun$a male with the same parents as someone else$6.741026179197185
+budget$Verb$make a budget$6.2810160860763595
+build$Verb$make by combining materials and parts$6.039893363357685
+building$Noun$a structure that has a roof and walls and stands more or less permanently in one place$5.563510749304938
+business$Noun$a commercial or industrial enterprise and the people who constitute it$3.690196080028514
+call$Noun$a telephone connection$5.143417663617376
+camera$Noun$equipment for taking photographs (usually consisting of a lightproof box with a lens at one end and light-sensitive film at the other$5.907519383466457
+campaign$Noun$a race between candidates for elective office$6.672919467697059
+cancer$Noun$any malignant growth or tumor caused by abnormal and uncontrolled cell division; it may spread to other parts of the body through the lymphatic system or the blood stream$6.18894225728329
+candidate$Noun$a politician who is running for public office$7.084156292671251
+capital$Adjective$first-rate$6.130412256108624
+card$Verb$separate the fibers of$5.231900103312802
+care$Verb$feel concern or interest$4.977101433000889
+career$Noun$the particular occupation for which you are trained$6.101532622466085
+carry$Noun$the act of carrying something$6.764394420754908
+case$Noun$an occurrence of something$4.912732066258086
+catch$Noun$a drawback or difficulty that is not readily evident$7.120769845944031
+cause$Noun$events that provide the generative force that is the origin of something$6.1741424118130706
+cell$Noun$any small compartment$5.68271894090971
+center$Verb$center upon$4.664876919831211
+central$Noun$a workplace that serves as a telecommunications facility where lines from telephones can be connected together to permit communication$5.671381142984851
+century$Noun$a period of 100 years$6.354495672511247
+certain$Adjective$definite but not specified or identified$6.081995384846981
+certainly$Adverb$definitely or positively (`sure' is sometimes used informally for `surely'$6.922696867295966
+chair$Noun$a seat for one person, with a support for the back$6.597269566248871
+challenge$Verb$take exception to$6.6785052680654
+chance$Adjective$occurring or appearing or singled out by chance$6.550161796913717
+change$Verb$cause to change; make different; cause a transformation$5.0781521975855535
+character$Verb$engrave or inscribe characters on$6.400058533107541
+charge$Noun$an impetuous rush toward someone or something$6.32393323272815
+check$Noun$a written order directing a bank to pay money$4.865938581748812
+child$Noun$a young person of either sex$5.631155496648534
+choice$Adjective$of superior grade$6.141552925686869
+choose$Verb$pick out, select, or choose from a number of alternatives$5.89975540807375
+church$Noun$one of the groups of Christians who have their own beliefs and forms of worship$5.954532424854586
+citizen$Noun$a native or naturalized member of a state or other political community$7.265521776958877
+city$Noun$a large and densely populated urban area; may include several independent administrative districts$4.279758172802473
+civil$Adjective$applying to ordinary citizens as contrasted with the military$6.4438711996560105
+claim$Noun$an assertion of a right (as to money or property$6.611132627030608
+class$Verb$arrange or order by classes or categories$5.175421930037823
+clear$Verb$rid of obstructions$5.914256395353626
+clearly$Adverb$without doubt or question$6.782576097190595
+close$Adverb$near in time or place or relationship$5.731392119832141
+coach$Verb$teach and supervise (someone$6.989700043360188
+cold$Noun$a mild viral infection involving the nose and respiratory passages (but not the lungs$6.595521022198268
+collection$Noun$several things grouped together or considered as a whole$5.741977627521151
+college$Noun$the body of faculty and students of a college$5.22132032617976
+color$Noun$a visual attribute of things that results from the light they emit or transmit or reflect$5.683969609180227
+come$Noun$the thick white fluid containing spermatozoa that is ejaculated by the male genital tract$5.403135970111855
+commercial$Adjective$connected with or engaged in or sponsored by or used in commerce or commercial enterprises$5.892904530026146
+common$Noun$a piece of open land for recreational use in an urban area$5.7325746781683895
+community$Noun$a group of people living in a particular local area$4.792398694191473
+company$Verb$be a companion to somebody$4.495946532723614
+compare$Verb$examine and note the similarities or differences of$5.214910046429337
+computer$Noun$a machine for performing calculations automatically$4.985520778053675
+concern$Noun$something that interests you because it is important or affects you$6.986637216464203
+condition$Verb$establish a conditioned response$6.055514409381107
+conference$Noun$a prearranged meeting for consultation or exchange of information or discussion (especially one with a formal agenda$5.788632125368877
+congress$Noun$the legislature of the United States government$6.628155983558425
+consider$Verb$deem to be$6.367678074112843
+consumer$Noun$a person who uses goods or services$6.146703404773802
+contain$Verb$include or contain; have as a component$6.862405769113034
+continue$Verb$continue a certain state, condition, or activity$6.046504919267423
+control$Noun$power to direct or determine$5.0422761674080725
+cost$Noun$the total spent for goods or services including money and time and labor$5.376839644005421
+country$Noun$a politically organized body of people under a single government$5.19319419125292
+couple$Verb$bring two objects, ideas, or people together$6.549239238182476
+course$Adverb$as might be expected$5.260855750050048
+court$Verb$make amorous advances towards$5.566377382150515
+cover$Noun$a covering that serves to conceal or shelter something$5.853713417899384
+create$Verb$make or cause to be or to become$5.507166117785813
+crime$Noun$(criminal law$6.605959873496499
+cultural$Adjective$of or relating to the arts and manners that a group favors$6.578285671864666
+culture$Noun$a particular society at a particular time and place$6.137113790144726
+current$Adjective$occurring in or belonging to the present time$5.029095505320572
+customer$Noun$someone who pays for goods or services$5.210610092282219
+dark$Adjective$devoid of or deficient in light or brightness; shadowed or black$6.429157907140998
+data$Noun$a collection of facts from which conclusions may be drawn$4.227886704613674
+daughter$Noun$a female human offspring$6.903879738730206
+dead$Adjective$no longer having or seeming to have or expecting to have life$6.460386757738092
+deal$Verb$act on verbally or in some form of artistic expression$6.209656807307311
+death$Noun$the event of dying or departure from life$5.969954252830987
+debate$Noun$a discussion in which reasons are advanced for and against some proposition or proposal$7.032541765458681
+decade$Noun$a period of 10 years$7.50747244435002
+decide$Verb$reach, make, or come to a decision about something$7.104606218676708
+decision$Noun$the act of making up your mind about something$6.103847832092213
+deep$Adverb$to a great depth; far down or in$6.376168747429876
+defense$Noun$(military$6.660827546698382
+degree$Noun$a position on a scale of intensity or amount or quality$6.159808935333442
+democrat$Noun$a member of the Democratic Party$7.8287921042595725
+democratic$Adjective$characterized by or advocating or based upon the principles of democracy or social equality$7.062446749066053
+describe$Verb$give a description of$6.98635824136503
+design$Noun$the act of working out the form of something (as by making a sketch or outline or plan$4.774779652677458
+despite$Noun$lack of respect accompanied by a feeling of intense dislike$6.898030632695573
+detail$Verb$provide details for$6.50957937479442
+determine$Verb$establish after a calculation, investigation, experiment, survey, or study$6.563429940054592
+develop$Verb$make something new, such as a product or a mental or artistic creation$6.341110117042417
+development$Noun$act of improving by expanding or enlarging or refining$4.692705948901278
+difference$Noun$the quality of being unlike or dissimilar$6.531521833435221
+different$Adjective$unlike in nature or quality or form or degree$5.246498580795801
+difficult$Adjective$not easy; requiring great physical or mental effort to accomplish or comprehend or endure$6.569763429310906
+dinner$Noun$the main meal of the day served in the evening or at midday$6.9498886709307754
+direction$Noun$a line leading to a place or point$6.749863107956377
+director$Noun$someone who controls resources and expenditures$5.754742691739548
+discover$Verb$discover or determine the existence, presence, or fact of$6.952503592014067
+discuss$Verb$to consider or examine in speech or writing$6.55338305769008
+discussion$Noun$an extended communication (often interactive$5.69267422425961
+disease$Noun$an impairment of health or a condition of abnormal functioning$6.260667536990012
+doctor$Noun$a licensed medical practitioner$6.616274757276077
+door$Noun$a swinging or sliding barrier that will close the entrance to a room or building or vehicle$6.321537123722257
+down$Adjective$being or moving lower in position or less in some value$4.982723387668545
+draw$Verb$cause to move by pulling$7.049830295079734
+dream$Noun$a series of mental images and emotions occurring during sleep$6.756432299499756
+drive$Verb$operate or control a vehicle$5.733755628674998
+drop$Noun$a shape that is spherical and small$6.66770029020509
+drug$Noun$a substance that is used as a medicine or narcotic$6.014641905845489
+each$Adjective$(used of count nouns$4.445432942295167
+early$Adverb$during an early stage$5.8061799739838875
+east$Adverb$to, toward, or in the east$5.519335689379261
+easy$Adjective$posing no difficulty; requiring little effort$5.584783378996508
+economic$Adjective$of or relating to an economy, the system of production and management of material wealth$5.868996902487136
+economy$Noun$the system of production and distribution and consumption$6.49986351326839
+edge$Verb$advance slowly, as if by inches$6.580959626661346
+education$Noun$the activities of educating or instructing; activities that impart knowledge or skill$4.764034085149737
+effect$Noun$a phenomenon that follows and is caused by some previous phenomenon$6.0587675553704194
+effort$Noun$earnest and conscientious activity intended to do or accomplish something$6.598142520054819
+eight$Noun$the cardinal number that is the sum of seven and one$6.774067402564726
+either$Adverb$after a negative statement used as an intensive meaning something like `likewise' or `also'$5.812670083610182
+election$Noun$a vote to select the winner of a position or political office$6.683660113841021
+employee$Noun$a worker who is hired to perform a job$6.506191171698063
+energy$Noun$(physics$5.652149605401653
+enjoy$Verb$derive or receive pleasure from; get enjoyment from; take pleasure in$6.434441311289038
+enough$Adverb$as much as necessary$5.966350144075626
+enter$Verb$to come or go into$5.633807678751321
+entire$Noun$uncastrated adult male horse$6.329300431868593
+environment$Noun$the totality of surrounding conditions$5.7897393134905055
+environmental$Adjective$of or relating to the external conditions or surroundings$5.9903925831943585
+especially$Adverb$to a distinctly greater extent or degree than is common$6.278498435143214
+establish$Verb$set up or found$6.978228738757839
+even$Adverb$used as an intensive especially to indicate something unexpected$4.859504560004816
+evening$Verb$make level or straight$6.752058363456361
+event$Noun$something that happens at a given place and time$5.5889760933183394
+ever$Adverb$at any time$5.804005782701459
+every$Adjective$(used of count nouns$5.186572134040914
+evidence$Verb$provide evidence for; stand as proof of; show by one's behavior, attitude, or external attributes$6.231221023348599
+exactly$Adverb$indicating exactness or preciseness$6.797615460406529
+example$Noun$an item of information that is typical of a class or group$5.529845969299777
+executive$Adjective$having the function of carrying out plans or orders etc.$6.083574637943504
+exist$Verb$have an existence, be extant$6.966032840288264
+expect$Verb$regard something as probable or likely$6.73172443080511
+experience$Verb$undergo or live through a difficult experience$5.504096895638877
+expert$Adjective$having or showing knowledge and skill and aptitude$6.6664913979239255
+explain$Verb$make plain and comprehensible$6.977383396633881
+face$Noun$the front of the human head from the forehead to the chin and ear to ear$5.975332529852549
+fact$Noun$a piece of information about circumstances that exist or events that have occurred$5.861898062335046
+factor$Verb$resolve into factors$6.639876879960617
+fail$Verb$fail to do something; leave something undone$6.841561239097131
+fall$Noun$the season when the leaves fall from the trees$6.180516105862632
+family$Noun$a social unit living together$4.833281014676562
+fast$Adverb$quickly or rapidly (often used as a combining form$5.859859120169176
+father$Noun$a male parent (also used as a term of address to your father$6.456287215195483
+fear$Verb$be afraid or feel anxious or apprehensive about a possible or probable situation or event$6.901421756293838
+federal$Adjective$national; especially in reference to the government of the United States as distinct from that of its member units$5.823380317507723
+feel$Verb$undergo an emotional sensation or be in a particular state of mind$5.881032969865134
+feeling$Noun$the experiencing of affective and emotional states$6.934920219014527
+field$Verb$catch or pick up (balls$5.51630924393478
+fight$Verb$be engaged in a fight; carry on a fight$6.821217085136736
+figure$Verb$judge to be probable$5.961823875553687
+fill$Verb$make full, also in a metaphorical sense$6.719670964679776
+film$Verb$make a film or photograph of something$5.659893391883272
+final$Adjective$occurring at or forming an end or termination$5.826567803520837
+finally$Adverb$after an unspecified period of time or an especially long delay$6.448548028588515
+financial$Adjective$involving financial matters$5.440318606811914
+find$Verb$come upon, as if by accident; meet with$3.9912703891951
+fine$Verb$issue a ticket or a fine to as a penalty$6.0929903286694165
+finger$Noun$any of the terminal members of the hand (sometimes excepting the thumb$7.381632115961831
+finish$Verb$come or bring to a finish or an end$6.853997917513074
+fire$Verb$start firing a weapon$5.963637214341327
+firm$Noun$the members of a business organization that owns or operates one or more establishments$6.535750838637795
+first$Adjective$preceding all others in time or space or degree$3.8276277047674334
+fish$Verb$seek indirectly$6.387362059082563
+five$Adjective$being one more than four$5.765049075909761
+floor$Verb$surprise greatly; knock someone's socks off$6.37051753059317
+focus$Verb$direct one's attention on something$6.179103765772908
+follow$Verb$to travel behind, go after, come after$6.131159429456897
+food$Noun$any substance that can be metabolized by an animal to give energy and build tissue$5.240272109947515
+foot$Verb$pay for something$6.605094744974971
+force$Verb$to cause to do through pressure or necessity, by physical, moral or intellectual means$6.018051484173821
+foreign$Adjective$of concern to or concerning the affairs of other nations (other than your own$6.148901437909182
+forget$Verb$dismiss from the mind; stop remembering$6.972010372724484
+form$Noun$the phonological or orthographic sound or appearance of a word that can be used to describe or identify something$5.129332128504179
+former$Adjective$referring to the first of two things or persons mentioned (or the earlier one or ones of several$6.487068203664124
+forward$Verb$send or ship onward from an intermediate post or station in transit$6.29349602726128
+four$Noun$the cardinal number that is the sum of three and one$5.554853644778623
+free$Verb$grant freedom to; free from confinement$3.225567713439471
+friend$Noun$a person you know well and regard with affection and trust$5.4014074342900384
+front$Adjective$relating to or located in the front$5.798546374635207
+full$Adjective$containing as much or as many as is possible or normal$4.580069222725036
+fund$Verb$convert (short-term floating debt$6.157638366197697
+future$Noun$the time yet to come$5.612359947967774
+game$Adjective$disabled in the feet or legs$4.965747167217508
+garden$Adjective$the usual or familiar type$5.64040291897128
+general$Verb$command as a general$4.557507201905658
+generation$Noun$all the people living at the same time or of approximately the same age$6.614564094066692
+girl$Noun$a young female$5.909449581958126
+give$Noun$the elasticity of something that can be stretched and returns to its original length$5.48701952945686
+glass$Noun$a brittle transparent solid with irregular atomic structure$6.213061707644763
+goal$Noun$the state of affairs that a plan is intended to achieve and that (when achieved$6.555218428608183
+good$Adverb$(often used as a combining form$4.375041441672926
+government$Noun$the organization that is the governing authority of a political unit$5.093085326956262
+great$Adjective$relatively large in size or number or extent; larger than others of its kind$4.636126669925523
+green$Noun$green color or pigment; resembling the color of growing grass$5.729022162116784
+ground$Noun$the solid part of the earth's surface$6.257444568676854
+group$Verb$arrange into a group or groups$4.510545010206612
+grow$Verb$pass into a condition gradually, take on a specific property or attribute; become$6.931360423196556
+growth$Noun$(biology$6.006921064219013
+guess$Verb$expect, believe, or suppose$6.885586451879538
+hair$Noun$a covering for the body (or parts of it$6.264519379062089
+half$Adjective$consisting of one of two equivalent parts in value or quantity$5.934159468288994
+hand$Verb$place into the hands or custody of$5.616421945848444
+hang$Verb$be suspended or hanging$7.513424320329543
+happen$Verb$come to pass$6.91757776342169
+happy$Adjective$enjoying or showing or marked by joy or pleasure$6.213741088957308
+hard$Adverb$with effort or force or vigor$5.5490339314570996
+have$Noun$a person who possesses great material wealth$2.7958800173440754
+head$Noun$the upper part of the human body or the front part of the body in animals; contains the face and brains$5.678956094748397
+health$Noun$a healthy state of wellbeing free from disease$4.128915978453837
+hear$Verb$perceive (sound$6.478598958253785
+heart$Noun$the locus of feelings and intuitions$5.896825931557202
+heat$Noun$a form of energy that is transferred by a difference in temperature$6.613278882048523
+heavy$Adjective$of comparatively great physical weight or density$6.6624495620414645
+help$Noun$the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose$3.7501225267834
+here$Adverb$in or at this place; where the speaker or writer is$3.6776981814745104
+high$Adjective$greater than normal in degree or intensity or amount$4.424375208807915
+history$Noun$the aggregate of past events$5.047492933623129
+hold$Noun$the act of grasping$6.210338855998663
+home$Verb$provide with, or send to, a home$3.010299956639812
+hope$Verb$expect and wish$6.070859476369097
+hospital$Noun$a health facility where patients receive treatment$6.256798537435613
+hotel$Noun$a building where travelers can pay for lodging and meals and other services$4.644438589467838
+hour$Noun$a period of time equal to 1/24th of a day$6.096106346231218
+house$Noun$a dwelling that serves as living quarters for one or more families$4.9425834221178775
+however$Adverb$despite anything to the contrary (usually preceding a concession$5.334905905779908
+huge$Adjective$unusually great in size or amount or degree or especially extent or scope$6.107692853704505
+human$Adjective$characteristic of humanity$5.362482474751174
+hundred$Noun$ten 10s$7.187679322162543
+husband$Verb$use cautiously and frugally$7.037027879755775
+idea$Noun$the content of cognition; the main thing you are thinking about$6.181926153191463
+identify$Verb$recognize as being; establish the identity of someone or something$6.701658547165936
+image$Noun$an iconic mental representation$5.148062535455438
+imagine$Verb$form a mental image of something that is not present or that is not the case$7.223234221108672
+impact$Noun$the striking of one body against another$6.250962531401188
+important$Adjective$of great significance or value$5.514792057586049
+improve$Verb$to make better$6.244431756545653
+include$Verb$have as a part, be made up out of$5.21918881845044
+including$Verb$have as a part, be made up out of$5.06295783408451
+increase$Verb$become bigger or greater in amount$5.985990196862683
+indeed$Adverb$in truth (often tends to intensify$6.9229970535660375
+indicate$Verb$be a signal for or a symptom of$6.99882425134455
+individual$Noun$a human being$5.849591991595824
+industry$Noun$the people or companies engaged in a particular kind of commercial enterprise$5.3588557932242376
+information$Noun$a message received and understood$3.3624824747511743
+inside$Noun$the region that is inside of something$6.07405575951155
+instead$Adverb$in place of, or as an alternative to$6.325128813046038
+institution$Noun$an organization founded and united for a specific purpose$6.995241299562576
+interest$Verb$excite the curiosity of; engage the interest of$5.62849519146384
+interesting$Adjective$arousing or holding the attention$6.4845858099658615
+international$Noun$any of several international socialist organizations$4.660827546698382
+interview$Verb$conduct an interview in television, newspaper, and radio reporting$6.779749116781971
+investment$Noun$the act of investing; laying out money or capital in an enterprise with the expectation of profit$6.132651850724075
+involve$Verb$connect closely and often incriminatingly$7.467678001394299
+issue$Noun$an important question that is in dispute and must be settled$5.560634624280302
+item$Adverb$(used when listing or enumerating items$4.656759206877475
+join$Verb$become part of; become a member of a group or organization$5.2829482210081995
+just$Adjective$used especially of what is legally or ethically right or proper or fitting$4.0668475109739
+keep$Verb$cause to continue in a certain state, position, or activity; e.g., `keep clean'$5.632482599983566
+kill$Noun$the act of terminating a life$6.981321306712274
+kind$Noun$a category of things distinguished by some common characteristic or quality$6.112284524118104
+kitchen$Noun$a room equipped for preparing meals$6.252912226863609
+know$Verb$be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about$4.6020599913279625
+knowledge$Noun$the psychological result of perception and learning and reasoning$5.9046160193242505
+land$Verb$reach or come to rest$5.775234600671472
+language$Noun$a systematic means of communicating by the use of sounds or conventional symbols$5.497925722512323
+large$Noun$a garment size for a large person$5.327401850779296
+last$Verb$persist for a specified period of time$4.1938200260161125
+late$Adjective$being or occurring at an advanced period of time or after a usual or expected time$6.179810222878796
+later$Adverb$later than usual or than expected$5.949023385474657
+laugh$Noun$the sound of laughing$7.593426126561793
+lawyer$Noun$a professional person authorized to practice law; conducts lawsuits or gives legal advice$6.837927661407245
+lead$Noun$an advantage held by a competitor in a race$6.14007573321551
+leader$Noun$a person who rules or guides or inspires others$6.621811258752283
+learn$Verb$gain knowledge or skills$5.252680734750085
+least$Adverb$used to form the superlative$5.701292470366133
+leave$Verb$go away from a place$6.104618199294647
+left$Adverb$toward or on the left; also used figuratively$5.300615046263873
+legal$Adjective$established by or founded upon law or official or accepted rules$5.472793004553285
+less$Adjective$(comparative of `little' usually used with mass nouns$5.455082514057112
+letter$Verb$win an athletic letter$6.153280887340684
+level$Noun$a position on a scale of intensity or amount or quality$5.119813250072225
+life$Noun$a characteristic state or mode of living$4.597706152819414
+light$Adverb$with few burdens$5.573502844291123
+like$Verb$prefer or wish to do something$3.9554472105776957
+likely$Adverb$with considerable certainty; without much doubt$6.340523430789915
+line$Noun$a formation of people or things one beside another$4.712051714386245
+list$Noun$a database containing an ordered array of items (names or topics$4.050611730529541
+listen$Verb$hear with intention$6.552923608346489
+little$Adverb$not much$5.19758101352623
+live$Verb$be an inhabitant of or reside in$5.325515663363148
+local$Noun$public transport consisting of a bus or train that stops at all stations or stops$4.7458240059402135
+long$Adverb$for an extended time or at a distant time$4.839911496979516
+look$Noun$the feelings expressed on a person's face$5.296720021961863
+lose$Verb$fail to keep or to maintain; cease to have, either physically or in an abstract sense$7.001570345834912
+loss$Noun$something that is lost$5.974438459816009
+love$Verb$have a great affection or liking for$5.13405273231812
+machine$Noun$any mechanical or electrical device that transmits or modifies energy to perform or assist in the performance of human tasks$6.122904958174386
+magazine$Noun$a periodic publication containing pictures and stories and articles of interest to those who purchase it or subscribe to it$5.905584886088184
+main$Adjective$most important element$5.141085879763795
+maintain$Verb$cause to continue in a certain state, position, or activity; e.g., `keep clean'$6.767989578883466
+major$Noun$a commissioned military officer in the United States Army or Air Force or Marines; below lieutenant colonel and above captain$5.608278864670701
+majority$Noun$the property resulting from being or relating to the greater in number of two parts; the main part$6.891208406547195
+make$Verb$engage in$4.234542591311529
+manage$Verb$be successful; achieve a goal$6.691139512112784
+management$Noun$the act of managing something$4.6192603348517975
+manager$Noun$someone who controls resources and expenditures$5.925685362402485
+many$Adjective$a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number$4.524902179460859
+market$Noun$the world of commercial activity where goods and services are bought and sold$5.342345685430167
+marriage$Noun$the state of being a married couple voluntarily joined for life (or until divorce$6.827605033538703
+material$Adjective$concerned with worldly rather than spiritual interests$5.818041708422312
+matter$Verb$have weight; have import, carry weight$6.165570740632901
+maybe$Adverb$by chance$6.402247794414759
+mean$Noun$an average of n numbers computed by adding some function of the numbers and dividing by some function of n$6.006058941107236
+measure$Verb$determine the measurements of something or somebody, take measurements of$6.789603554325422
+media$Noun$a means or instrumentality for storing or communicating information$5.037027879755775
+medical$Noun$a thorough physical examination; includes a variety of tests depending on the age and sex and health of the person$5.3979400086720375
+meet$Verb$come together$5.8669745756974105
+meeting$Noun$a formally arranged gathering$5.624489393600738
+member$Noun$one of the persons who compose a social group (especially individuals who have joined and participate in a group organization$4.704365036222725
+memory$Noun$something that is remembered$5.488585966245353
+mention$Verb$make reference to$7.189668711166636
+message$Noun$a communication (usually brief$4.340523430789915
+method$Noun$a way of doing something, especially a systematic way; implies an orderly logical arrangement (usually in steps$5.955447210577695
+middle$Noun$an area that is approximately central within some larger region$6.113809702672945
+might$Noun$physical strength$5.60280742003471
+military$Adjective$of or relating to the study of the principles of warfare$6.102305044894763
+million$Noun$the number that is represented as a one followed by 6 zeros$5.643027056809546
+mind$Noun$that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason$6.061199443931902
+minute$Noun$a unit of time equal to 60 seconds or 1/60th of an hour$6.593330380523062
+miss$Noun$a young female$6.615419846809614
+mission$Noun$an organization of missionaries in a foreign land sent to carry on religious work$6.3884734974476585
+model$Adjective$worthy of imitation$5.353387219249733
+modern$Adjective$belonging to the modern era; since the Middle Ages$6.318532662186988
+moment$Noun$a particular point in time$6.707063118155524
+money$Noun$the most common medium of exchange; functions as legal tender$5.182129214052998
+month$Noun$one of the twelve divisions of the calendar year$5.606914231296828
+more$Noun$English statesman who opposed Henry VIII's divorce from Catherine of Aragon and was imprisoned and beheaded; recalled for his concept of Utopia, the ideal state$2.8627275283179747
+morning$Noun$the time period between dawn and noon$6.376731852126296
+most$Adjective$a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number$4.200741090235126
+mother$Verb$care for like a mother$6.310064457581941
+mouth$Noun$the opening through which food is taken in and vocalizations emerge$7.043844489767001
+move$Verb$change location; move, travel, or proceed, also metaphorically$6.114571288836429
+movement$Noun$a change of position that does not entail a change of location$6.720429226590705
+movie$Noun$a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement$5.3786177182472406
+much$Adverb$to a great degree or extent$4.888089591836152
+music$Noun$an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner$4.214419939295737
+must$Adjective$highly recommended$4.672919467697059
+name$Verb$assign a specified (usually proper$4.0587675553704194
+nation$Noun$a politically organized body of people under a single government$6.5334039337681755
+national$Noun$a person who owes allegiance to that nation$4.767630731960862
+natural$Noun$someone regarded as certain to succeed$5.759338411264107
+nature$Noun$the essential qualities or characteristics by which something is recognized$6.000868154958638
+near$Verb$move towards$5.989513889175257
+nearly$Adverb$(of actions or states$6.799693425425845
+necessary$Noun$anything indispensable$6.0859381467863605
+need$Noun$a condition requiring relief$4.520142775970149
+network$Noun$an interconnected system of things or people$4.979916958849669
+never$Adverb$not ever; at no time in the past or future$5.430334715696915
+news$Noun$information about recent and important events$3.5268559871258747
+newspaper$Noun$a daily or weekly publication on folded sheets; contains news and articles and advertisements$6.9232971361269104
+next$Adverb$at the time or occasion immediately following$4.158362492095249
+nice$Noun$a city in southeastern France on the Mediterranean; the leading resort on the French Riviera$6.125915668169021
+night$Noun$the time after sunset and before sunrise while it is dark outside$5.546109386728525
+none$Adjective$not any$5.940693752460187
+north$Adverb$in a northern direction$5.023766721957749
+note$Noun$a brief written record$5.323625371074522
+nothing$Noun$a quantity of no importance$6.081204680228146
+notice$Noun$an announcement containing information about an event$5.675176876471022
+number$Verb$add up in number or quantity$4.3045766887661125
+occur$Verb$come to pass$6.985241444086384
+offer$Noun$the verbal act of offering$5.579161424328851
+office$Noun$place of business where professional or clerical duties are performed$4.760422483423212
+officer$Noun$any person in the armed services who holds a position of authority or command$6.45885169584139
+official$Noun$a worker who holds or is invested with an office$5.771852679602862
+often$Adverb$many times at short intervals$5.8740322149296285
+once$Adverb$on one occasion$5.695145318284224
+only$Adjective$being the only one; single and isolated from others$3.612359947967774
+open$Verb$cause to open or to become open$4.900498216638722
+operation$Noun$the state of being in effect or being operative$6.284778932237672
+opportunity$Noun$a possibility due to a favorable combination of circumstances$6.265159695319474
+option$Noun$the right to buy or sell property at an agreed price; the right is purchased and if it is not exercised by a stated date the money is forfeited$6.2358676700792826
+order$Verb$give instructions to or direct somebody to do something with authority$4.471056893815097
+organization$Noun$a group of people who work together$6.057955410417556
+other$Adjective$not the same one or ones already mentioned or implied$3.3064250275506875
+outside$Adjective$relating to or being on or near the outer side or limit$6.150363709237383
+over$Adjective$having come or been brought to a conclusion$4.074852995881248
+owner$Noun$is legal possessor of$6.2972053096121865
+page$Noun$one side of one leaf (of a book or magazine or newspaper or letter etc.$3.13640344813399
+pain$Verb$cause bodily suffering to and make sick or indisposed$6.574259241438222
+painting$Noun$graphic art consisting of an artistic composition made by applying paints to a surface$7.082908857495178
+paper$Verb$cover with paper$5.520844966846424
+parent$Verb$look after a child until it is an adult$6.495946532723614
+part$Noun$something determined in relation to something that includes it$4.6277344407383065
+participant$Noun$someone who takes part in an activity$7.637375326883028
+particular$Noun$a fact about some part (as opposed to general$6.0922095744920775
+particularly$Adverb$to a distinctly greater extent or degree than is common$6.575155618157411
+partner$Noun$a person's partner in marriage$6.3840191853073405
+party$Noun$an organization to gain political power$5.459948571399111
+pass$Verb$go across or through$6.3475376462733
+past$Adverb$so as to pass a given point$5.7581917590001455
+patient$Noun$a person who requires medical care$6.56569720566929
+pattern$Verb$plan or create according to a model or models$6.744350572230128
+peace$Noun$the state prevailing during the absence of war$6.470551753374105
+people$Noun$(plural$4.0340666785975605
+perform$Verb$carry out or perform an action$6.834278819454651
+performance$Noun$a dramatic or musical entertainment$5.490149583164115
+perhaps$Adverb$by chance$6.568861467689039
+period$Noun$an amount of time$5.767322870307235
+person$Noun$a human being$5.450189042162938
+personal$Adjective$concerning or affecting a particular person or his or her private life and personality$5.057833400555309
+phone$Verb$get or try to get into communication (with someone$4.809667433239876
+physical$Adjective$involving the body as distinguished from the mind or spirit$6.206238507091427
+pick$Noun$the person or thing chosen or selected$6.642368054604629
+picture$Verb$imagine; conceive of; see in one's mind$5.598681098907163
+piece$Noun$a separate part of a whole$6.534812837505808
+place$Noun$a point located with respect to surface features of some region$4.996621107579201
+plan$Noun$a series of steps to be carried out or goals to be accomplished$5.360671026829126
+plant$Noun$buildings for carrying on industrial labor$6.379541912693748
+play$Verb$participate in games or sport$5.423614458082382
+player$Noun$a person who participates in or is skilled at some game$5.8710145316494255
+point$Verb$indicate a place, direction, person, or thing; either spatially or figuratively$5.280962873940844
+police$Verb$maintain the security of by carrying out a patrol$6.201430173146163
+policy$Noun$a plan of action adopted by an individual or social group$4.298438225310759
+political$Adjective$involving or characteristic of politics or parties or politicians$5.985107035664271
+politics$Noun$social relations involving intrigue to gain authority or power$6.3834607867257125
+poor$Noun$people without possessions or wealth (considered as a group$6.465992220784307
+popular$Adjective$regarded with great favor, approval, or affection especially by the general public$5.65731979307064
+population$Noun$the people who inhabit a territory or state$6.225210003069149
+position$Noun$the particular portion of space occupied by something$5.92757565469111
+positive$Adjective$characterized by or displaying affirmation or acceptance or certainty etc.$6.332267940610218
+possible$Noun$something that can be done$5.60143415656477
+power$Verb$supply the force or power for the functioning of$4.97144285296316
+practice$Noun$a customary way of operation or behavior$5.960006743167493
+prepare$Verb$make ready or suitable or equip in advance for a particular purpose or for some use, event, etc$7.100701344603231
+present$Adjective$temporal sense; intermediate between past and future; now existing or happening or in consideration$5.810512097496902
+president$Noun$an executive officer of a firm or corporation$5.673913474119101
+pressure$Noun$the force applied to a unit area of surface; measured in pascals (SI unit$6.412031753526689
+pretty$Adverb$to certain extent or degree$6.406065774029421
+prevent$Verb$keep from happening or arising; make impossible$6.671316904578603
+price$Noun$the property of having material worth (often indicated by the amount of money something would bring if sold$4.0
+private$Noun$an enlisted man of the lowest rank in the Army or Marines$5.195390371851024
+probably$Adverb$with considerable certainty; without much doubt$6.238511778555873
+problem$Noun$a state of difficulty that needs to be resolved$5.483878155458398
+process$Noun$a particular course of action intended to achieve a result$5.266936911159173
+produce$Verb$bring forth or yield$6.712816654077963
+product$Noun$commodities offered for sale$4.254209596729615
+production$Noun$the act or process of producing something$5.891921407155137
+professional$Noun$a person engaged in one of the learned professions$5.604178515763466
+professor$Noun$someone who is a member of the faculty at a college or university$6.6020599913279625
+program$Noun$a series of steps to be carried out or goals to be accomplished$4.593330380523062
+project$Noun$any piece of work that is undertaken or attempted$4.915763793467985
+property$Noun$something owned; any tangible or intangible possession that is owned by someone$5.17317460934351
+protect$Verb$shield from danger, injury, destruction, or damage$6.6672975130294025
+prove$Verb$be shown or be found to be$7.274779300258424
+provide$Verb$give something useful or necessary to$5.236096193424185
+public$Noun$people in general considered as a whole$4.413651752063699
+pull$Noun$the act of pulling; applying force to move something toward or with you$7.161621945321892
+purpose$Noun$an anticipated outcome that is intended or that guides your planned actions$6.1986705553719155
+push$Verb$move with force$7.109220570452328
+quality$Adjective$of superior grade$5.1843535147917335
+question$Verb$challenge the accuracy, probity, or propriety of$5.543174961762511
+quickly$Adverb$with speed$6.609411796425531
+quite$Adverb$to a degree (not used with a negative$6.28602960050819
+race$Noun$any competition$6.397314173908845
+radio$Noun$medium for communication$5.680212188913516
+raise$Noun$the amount a salary is increased$7.100456706110188
+range$Verb$change or be different within limits$5.5620738772422635
+rate$Noun$a magnitude or frequency relative to a time unit$5.090614232931648
+rather$Adverb$on the contrary$6.077240323899406
+reach$Noun$the limits within which something can be effective$6.705522383447661
+read$Noun$something that is read$4.505706061959787
+ready$Verb$prepare for eating by applying heat$6.221852484532841
+real$Adjective$being or occurring in fact or actuality; having verified existence; not illusory$4.648564910595385
+reality$Noun$all of your experiences that determine how things appear to you$6.800730546699878
+realize$Verb$be fully aware or cognizant of$7.3588557932242376
+really$Adverb$in accordance with truth or fact or reality$5.346041814257792
+reason$Verb$decide by reasoning; draw or come to a conclusion$6.19033870286351
+receive$Verb$get something; come into possession of$5.91617169704217
+recent$Adjective$of the immediate past or just previous to the present time$5.475974652666862
+recently$Adverb$in the recent past$6.2378515056515536
+recognize$Verb$accept (someone$7.349538628030852
+record$Noun$anything (such as a document or a phonograph record or a photograph$5.785302067754601
+reduce$Verb$cut down on; make a reduction in$6.617128827122477
+reflect$Verb$manifest or bring back$7.046191676505136
+region$Noun$the extended spatial location of something$5.783074915345129
+relate$Verb$make a logical or causal connection$7.670366139698087
+relationship$Noun$a relation between people; (`relationship' is often used where `relation' would serve, as in `the relationship between inflation and unemployment', but the preferred usage of `relationship' is for human relations or states of relatedness$6.468021635174359
+religious$Noun$a member of a religious order who is bound by vows of poverty and chastity and obedience$6.69816633755918
+remain$Verb$stay the same; remain in a certain state$6.826264100869744
+remember$Verb$recall knowledge from memory; have a recollection$5.980677709575203
+remove$Verb$remove something concrete, as by lifting, pushing, or taking off, or remove something abstract$6.4349678884278125
+report$Noun$a written document describing the findings of some individual or group$4.696609726096321
+represent$Verb$take the place of or be parallel or equivalent to$6.946973940129137
+republican$Adjective$relating to or belonging to the Republican Party$7.36139605939527
+require$Verb$require as useful, just, or proper$6.3739126709308245
+research$Noun$systematic investigation to establish facts$4.562066734495455
+resource$Noun$available source of wealth; a new or reserve supply that can be drawn upon when needed$5.809431090557362
+respond$Verb$show a response or a reaction to something$7.016520611024669
+response$Noun$a result$5.95909674940819
+responsibility$Noun$the social force that binds you to the courses of action demanded by that force$6.3440376188491125
+rest$Noun$something left after other parts have been taken away$6.378418979164612
+result$Noun$a phenomenon that follows and is caused by some previous phenomenon$5.570659670021534
+return$Noun$document giving the tax collector information about the taxpayer's tax liability$5.102899995945751
+reveal$Verb$make visible$7.7053258886891385
+rich$Noun$people who have possessions and wealth (considered as a group$6.672118555732698
+right$Verb$make reparations or amends for$4.734711842052038
+rise$Noun$a growth in strength or number or importance$6.863370689372023
+risk$Noun$a source of danger; a possibility of incurring loss or misfortune$5.884016106044626
+road$Noun$an open way (generally public$5.540230589574203
+rock$Verb$move back and forth or sideways$5.843372950967204
+role$Noun$the actions and activities assigned to or required or expected of a person or group$6.076445276737437
+room$Verb$live and take one's meals at or in$5.270967493629824
+rule$Verb$exercise authority over; as of nations$6.303352461694096
+safe$Noun$strongbox where valuables can be safely kept$6.217806255334627
+same$Adjective$same in identity$4.918784975518462
+save$Verb$save from ruin, destruction, or harm$5.201945791373497
+scene$Noun$the place where some action occurs$6.866259035160971
+school$Noun$an educational institution$4.429687696095396
+science$Noun$a particular branch of scientific knowledge$5.284929040484243
+scientist$Noun$a person with advanced knowledge of one or more sciences$7.680588663222872
+score$Verb$gain points in a game$6.1266667179034995
+season$Verb$lend flavor to$6.04979192021497
+seat$Noun$a space reserved for sitting (as in a theater or on a train or airplane$6.8751840645079225
+second$Adjective$coming next after the first in position in space or time or degree or magnitude$5.371483477204527
+section$Verb$divide into segments$4.930765702896837
+security$Noun$the state of being free from danger or injury$4.948432528152511
+seek$Noun$the movement of a read/write head to a specific data track on a disk$7.002118524435503
+seem$Verb$give a certain impression or have a certain outward aspect$6.6804915231358635
+sell$Verb$exchange or deliver for money or its equivalent$5.5010167897026925
+send$Verb$cause to go somewhere$4.7309759697818
+senior$Adjective$older; higher in rank; longer in length of tenure or service$6.3191343864672405
+sense$Noun$a general conscious awareness$6.390137992937181
+series$Noun$similar things placed in order or happening one after another$5.3515566833481705
+serious$Adjective$concerned with work or important matters rather than play or trivialities$6.646916733698935
+serve$Verb$serve a purpose, role, or function$6.685240085106696
+service$Verb$be used by; as of a utility$3.964542466079137
+seven$Adjective$being one more than six$6.536219459616957
+several$Adjective$(used with count nouns$5.736112723646083
+sexual$Adjective$of or relating to or characterized by sexuality$6.755340878668646
+shake$Noun$building material used as siding or roofing$7.822208635608072
+share$Verb$have in common$5.637770829188019
+shoot$Verb$hit with a missile from a weapon$7.427652848761049
+short$Adjective$primarily temporal sense; indicating or being or seeming to be limited in duration$5.7443125454965855
+shot$Verb$hit with a missile from a weapon$6.587167026992233
+shoulder$Noun$the part of the body between the neck and the upper arm$7.46140308856369
+show$Verb$give an exhibition of to an interested audience$4.853022522729151
+side$Verb$take sides for or against$5.480725378988487
+sign$Verb$mark with one's signature; write one's name (on$4.891208406547195
+significant$Adjective$important in effect or meaning$6.295352648482197
+similar$Adjective$marked by correspondence or resemblance$5.6390878710837375
+simple$Adjective$having few parts; not complex or complicated or involved$5.938831824707963
+simply$Adverb$and nothing more$6.230555182791803
+sing$Verb$deliver by singing$7.510682367623095
+single$Verb$hit a single$5.522351626311463
+sister$Noun$a female person who has the same parents as another person$6.976254992494917
+site$Noun$the piece of land on which something is located (or is to be located$3.4151403521958725
+situation$Noun$the general state of things; the combination of circumstances at a given time$6.557964233730886
+size$Noun$the physical magnitude of something (how big it is$5.052678554779688
+skill$Noun$an ability that has been acquired by training$7.284929040484243
+skin$Noun$a natural protective body covering and site of the sense of touch$6.35680268306751
+small$Adverb$on a small scale$5.085650853918359
+smile$Verb$change one's facial expression by spreading the lips, often to signal pleasure$7.369870165281779
+social$Adjective$relating to human society and its members$5.491710390347458
+society$Noun$an extended social group having a distinctive cultural and economic organization$5.702516697438151
+soldier$Noun$an enlisted man or woman who serves in an army$7.5780326535867495
+some$Adjective$(quantifier$3.9180827846421873
+somebody$Noun$a human being$7.5122067431702115
+someone$Noun$a human being$6.051430767802682
+sometimes$Adverb$on certain occasions or in certain cases but not always$6.479099441680946
+song$Noun$a short musical composition with words$6.175562835619084
+soon$Adverb$in the near future$6.043205432056484
+sort$Verb$examine in order to test suitability$5.9294618421072585
+sound$Verb$appear in a certain way$5.808348736568327
+source$Noun$the place where something begins, where it springs into being$5.24235256355007
+south$Noun$the region of the United States lying to the south of the Mason-Dixon line$4.90968972001702
+southern$Adjective$in or characteristic of a region of the United States south of (approximately$6.408239965311849
+space$Noun$the unlimited expanse in which everything is located$5.6137160590376345
+speak$Verb$express in speech$6.810692720351418
+special$Adjective$unique or specific to a person or thing or category$4.869137808068397
+specific$Adjective$(sometimes followed by `to'$5.734934975718103
+speech$Noun$the act of delivering a formal spoken communication to an audience$6.8151216989727255
+spend$Verb$use up a period of time in a specific way$6.9301705751148654
+sport$Verb$wear or display in an ostentatious or proud manner$6.221179420598498
+spring$Verb$move forward by leaps and bounds$6.192429170692811
+staff$Noun$personnel who assist their superior in carrying out an assigned task$5.4151403521958725
+stage$Verb$perform (a play$6.392352370079947
+stand$Verb$be standing; be upright$6.499374855610603
+standard$Noun$a basis for comparison; a reference point against which other things can be evaluated$5.446911344070371
+star$Adjective$indicating the most important performer or role$5.6096413574423245
+start$Verb$take the first step or steps in carrying out an action$5.349722281475623
+state$Noun$the territory occupied by one of the constituent administrative districts of a nation$4.08278537031645
+statement$Noun$a message that is stated or declared; a communication (oral or written$5.799641004854193
+station$Verb$assign to a station$6.23188635387811
+stay$Verb$stay the same; remain in a certain state$6.0
+step$Noun$any maneuver made as part of progress toward a goal$5.936031427987284
+still$Adjective$not in physical motion$5.1798992026514155
+stock$Verb$have on hand$5.272975792706731
+stop$Noun$the event of something ending$6.031557512778082
+store$Noun$a mercantile establishment for the retail sale of goods or services$4.676912987209209
+story$Noun$a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program$5.499472631138122
+strategy$Noun$an elaborate and systematic plan of action$6.3155177720937274
+street$Noun$a thoroughfare (usually including sidewalks$5.435341006004524
+strong$Adjective$having strength or power greater than average or expected$6.253561154024018
+structure$Verb$give a structure to$6.1569136361065855
+student$Noun$a learner who is enrolled in an educational institution$5.4663945302131385
+study$Verb$consider in detail and subject to an analysis in order to discover essential features or meaning$5.410015918666672
+stuff$Noun$the tangible substance that goes into the makeup of a physical object$5.992147308970551
+style$Noun$how something is done or how it happens$5.796352966995353
+subject$Verb$cause to experience or suffer or make liable or vulnerable to$4.82323941192646
+success$Noun$an event that accomplishes its intended purpose$6.282899546800935
+successful$Adjective$having succeeded or being marked by a favorable outcome$6.555676666004095
+such$Adverb$to so extreme a degree$4.310672074930124
+suddenly$Adverb$happening unexpectedly$7.489524474131156
+suffer$Verb$undergo or be subjected to$7.6710006557346375
+suggest$Verb$make a proposal, declare a plan for something$6.6840553761749435
+summer$Verb$spend the summer$6.158362492095249
+support$Noun$the activity of providing for or maintaining by supplying with money or necessities$4.334634669496352
+sure$Adjective$having or feeling no doubt or uncertainty; confident and assured$5.708612083602161
+surface$Noun$the outer boundary of an artifact or a material layer constituting or resembling such a boundary$6.436020085968726
+system$Noun$instrumentality that combines interrelated interacting artifacts designed to work as a coherent entity$4.260667536990012
+table$Verb$hold back to a later time$5.331161982035907
+take$Noun$the income or profit arising from such transactions as the sale of land or other property$4.778332168729065
+talk$Noun$an exchange of ideas via conversation$5.822315217479953
+task$Noun$any piece of work that is undertaken or attempted$6.616701897173452
+teach$Noun$an English pirate who operated in the Caribbean and off the Atlantic coast of North America (died in 1718$7.160709322213183
+teacher$Noun$a person whose occupation is teaching$6.466500019082201
+team$Verb$form a team$5.302556027996288
+technology$Noun$the application of the knowledge and usage of tools (such as machines or utensils$4.906636680094075
+television$Noun$broadcasting visual images of stationary or moving objects$6.415807060772103
+tell$Noun$a Swiss patriot who lived in the early 14th century and who was renowned for his skill as an archer; according to legend an Austrian governor compelled him to shoot an apple from his son's head with his crossbow (which he did successfully without mishap$5.717074395139278
+tend$Verb$have a tendency or disposition to do or be something; be inclined$7.372199543991832
+term$Noun$a word or expression used for some particular thing$5.65860754566205
+test$Verb$put to the test, as for its quality, or give experimental use to$5.399675451734492
+thank$Verb$express gratitude or show appreciation to$6.217130047465669
+then$Noun$that time; that moment$4.363687175889545
+theory$Noun$a well-substantiated explanation of some aspect of the natural world; an organized system of accepted knowledge that applies in a variety of circumstances to explain a specific set of phenomena$6.433914414722194
+there$Adverb$in or at that place or location$3.584783378996508
+thing$Noun$a special situation$5.829743635080101
+think$Verb$judge or regard; look upon; judge$5.021090020413224
+third$Adjective$coming next after the second and just before the fourth in position$5.842332101275478
+though$Adverb$(postpositive$5.882028487411139
+thought$Verb$judge or regard; look upon; judge$5.9912703891951
+thousand$Adjective$denoting a quantity consisting of 1,000 items or units$7.2125477063399765
+threat$Noun$something that is a source of danger$7.1798992026514155
+three$Noun$the cardinal number that is the sum of one and one and one$4.991088675092897
+through$Adverb$from beginning to end$4.4349678884278125
+throughout$Adverb$from first to last$6.418493697506747
+throw$Verb$propel through the air$7.287497370919051
+thus$Noun$an aromatic gum resin obtained from various Arabian or East African trees; formerly valued for worship and for embalming and fumigation$6.274708222741466
+time$Verb$measure the time or duration of an event or action or the person who performs an action in a certain period of time$3.3803921600570273
+today$Noun$the present time or age$4.90357287104858
+together$Adjective$mentally and emotionally stable$5.8567917045134275
+tonight$Noun$the present or immediately coming night$7.115254976853653
+total$Adjective$constituting the full quantity or extent; complete$4.99385929614643
+tough$Noun$someone who learned to fight in the streets rather than being formally trained in the sport of boxing$7.384459671545511
+town$Noun$an urban area with a fixed boundary that is smaller than a city$5.8958472396634525
+trade$Noun$the commercial exchange (buying and selling on domestic or international markets$5.7110383113356
+traditional$Adjective$consisting of or derived from tradition$6.471056893815097
+training$Verb$create by training and teaching$5.274979459025022
+travel$Verb$change location; move, travel, or proceed, also metaphorically$4.680888229680237
+treat$Noun$something considered choice to eat$7.149682390126769
+treatment$Noun$care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury$5.900729708752246
+tree$Verb$force a person or an animal into a position from which he cannot escape$6.272172194768195
+trial$Noun$the act of testing something$6.323334824875472
+trip$Noun$a journey for some purpose (usually including the return$6.463448766657033
+trouble$Noun$a source of difficulty$6.9891439684603975
+true$Adjective$consistent with fact or reality; not false$5.8381561847521475
+truth$Noun$a fact that has been verified$6.713962801986263
+turn$Noun$a circular segment of a curve$6.005195961439817
+type$Verb$write by means of a keyboard with types$4.738431714820286
+under$Adjective$located below or beneath something else$4.552923608346489
+understand$Verb$know and comprehend the nature or meaning of$6.235205383380168
+unit$Noun$any division of quantity accepted as a standard of measurement or exchange$5.86291574137801
+usually$Adverb$under normal conditions$5.854740726078047
+value$Verb$fix or determine the value of; assign a value to$5.223446616014684
+various$Adjective$of many different kinds purposefully arranged but lacking any uniformity$5.887977750147543
+very$Adverb$used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal$4.476092206257591
+victim$Noun$an unfortunate person who suffers from some adverse circumstance$7.475180332571443
+view$Verb$deem to be$3.7841892053809607
+violence$Noun$an act of aggression (as one against a person who resists$6.868818415175
+visit$Verb$go to see a place, as for entertainment$5.199766144147375
+voice$Noun$the distinctive quality or pitch or condition of a person's speech$6.19451461938684
+vote$Verb$express one's preference for a candidate or for a measure or resolution; cast a vote$6.292876270571549
+wait$Noun$time during which some action is awaited$6.631940690913836
+walk$Noun$the act of traveling by foot$6.629419385910348
+wall$Noun$an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure$6.27534107447351
+want$Verb$feel or have a desire for; want strongly$4.806241042351636
+watch$Noun$a small portable timepiece$5.879038505237237
+water$Verb$supply with water, as with channels or ditches or streams$5.0448884670126395
+weapon$Noun$any instrument or instrumentality used in fighting or hunting$7.598681098907163
+wear$Verb$be dressed in$6.850742332877882
+week$Noun$any period of seven consecutive days$5.319832400139701
+weight$Noun$the vertical force exerted by a mass as a result of gravity$5.8948674437741015
+well$Verb$come up, as of a liquid$4.386249196708923
+west$Adjective$situated in or facing or moving toward the west$5.292807452446139
+western$Adjective$relating to or characteristic of the western parts of the world or the West as opposed to the eastern or oriental parts$6.016348368012853
+whatever$Adjective$one or some or every or all without specification$6.795880017344075
+while$Noun$a period of indeterminate length (usually short$4.974276750954373
+white$Noun$a Caucasian$5.080658949581747
+whole$Adjective$including all components without exception; being one unit or constituting the full amount or extent or duration; complete$5.9462557071993976
+wide$Adjective$having great (or a certain$5.923790947335701
+wife$Noun$a married woman; a man's partner in marriage$6.485579618957353
+will$Verb$decree or ordain$2.9827233876685453
+wind$Noun$air moving (sometimes with considerable force$6.556592416182547
+window$Noun$a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air$5.779723442516377
+wish$Noun$a specific feeling of desire$6.073257790724322
+within$Adverb$on the inside$4.795880017344075
+woman$Noun$an adult female person (as opposed to a man$6.109226109113775
+wonder$Noun$the feeling aroused by something strange and surprising$7.0469726646864554
+word$Noun$a unit of language that native speakers can identify$5.8158970432245445
+work$Verb$exert oneself by doing mental or physical work for a purpose or out of necessity$4.18684337032447
+worker$Noun$a person who works at a specific occupation$7.273777813967598
+world$Adjective$involving the entire earth; not limited or provincial in scope$4.143764014612251
+worry$Verb$be worried, concerned, anxious, troubled, or uneasy$7.3986346020427645
+write$Verb$produce a literary work$5.57492094903683
+writer$Noun$writes (books or stories or articles or the like$6.868179276835781
+wrong$Adverb$in an inaccurate manner$6.446472546205995
+yard$Noun$a unit of length equal to 3 feet; defined as 91.44 centimeters; originally taken to be the average length of a stride$7.313920365485698
+yeah$Adverb$not only so, but$6.952213433680383
+year$Noun$a period of time containing 365 (or 366$4.090645957573315
+young$Adjective$(used of living things especially persons$5.511749711344983
