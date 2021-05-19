@@ -5,6 +5,9 @@ crossword_size = 10
 frequency_multiplier = 1
 length_multiplier = 1
 position_multiplier = 1
+
+num_to_box = dict()
+
 class Crossword(object):
     def __init__(self, cols, rows, wordbank):
         self.cols = cols #Number of cols
@@ -21,13 +24,19 @@ class Crossword(object):
 
     def score(self, row, col, word, horizontal): 
         curr_score = 0 #Score = how many intersections there are with existing words. Returns NaN if the word does not fit 
+        # horizontal word
         if horizontal: 
+            if len(word)>= (self.cols-2) and (random.randint(0,100) < 55): 
+                return np.nan
             if col + len(word) > self.cols:
                 return np.nan
-            for i in range(len(word)):
-                # anything in the box to the left 
-                if (col>0) and self.boxes[(row,col-1)][0]==True:
-                    return np.nan
+            # anything in the box to the left
+            if (col>0) and self.boxes[(row,col-1)][0]==True:
+                return np.nan
+            # limit density of board
+            if (row>0) and (len(self.boxes[(row-1,col)][1]) >= (self.cols - 1)) and len(word) >= (self.cols-1):
+                return np.nan
+            for i in range(len(word)): 
                 # final letter above or initial letter below belonging to a vertical word, or run into another horizontal word 
                 if ((row>0) and self.boxes[(row-1,col+i)][3]==2 and self.boxes[(row-1,col+i)][2]==0) or (row+1<self.cols and self.boxes[(row+1,col+i)][3]==0 and self.boxes[(row+1,col+i)][2]==0) or (self.boxes[(row,col+i)][2]==1):
                     return np.nan
@@ -35,13 +44,7 @@ class Crossword(object):
                 if (col+len(word)+1<self.cols) and self.boxes[(row,col+len(word))][0]==True:
                     return np.nan
 
-                # if (row>0) and self.boxes[(row-1,col)][0]==True:
-                #     return np.nan
-                # if (col>0) and self.boxes[(row,col-1)][0]==True: 
-                #     return np.nan
-                # # if there's a final letter from horiz word 
-                # if (self.boxes[(row,col+i)][2]==1) and (self.boxes[(row,col+i)][3]==2):
-                #     return np.nan
+
                 if self.current_build_visualizer[row][col + i] == word[i]:
                     curr_score += 1
                 elif self.current_build_visualizer[row][col + i] == 0:
@@ -49,35 +52,38 @@ class Crossword(object):
                 else:
                     print_out(self.current_build_visualizer[row][col + i],p_flag) 
                     return np.nan
+
+        # Vertical word
         else:
+            if len(word)>= (self.cols-2) and (random.randint(0,100) < 55): 
+                return np.nan
             if row + len(word) > self.rows: 
                 return np.nan
+            # anything in the box above
+            if (row>0) and self.boxes[(row-1,col)][0]==True:
+                return np.nan
+            # limit density of board
+            if (col>0) and ((len(self.boxes[(row,col-1)][1])) >= (self.cols-1)) and (len(word) >= self.cols - 1):
+                return np.nan
+            if (row==0 and col>0) and self.boxes[(row,col-1)][3]==0 and self.boxes[(row,col-1)][2]==0:
+                return np.nan
             for i in range(len(word)):
-                # anything in the box above
-                if (row>0) and self.boxes[(row-1,col)][0]==True:
-                    return np.nan
                 # final letter to the left or initial letter to the right belonging to horizontal word, or run into another vertical word
-                # @TODO i think there's a bug in this next line
-                if ((col>0) and self.boxes[(row+i,col-1)][3]==2 and self.boxes[(row+i,col-1)][2]==1) or (col+1<self.cols and self.boxes[(row+i,col+1)][3]==0 and self.boxes[(row+i,col+1)][2]==1) or (self.boxes[(row,col+i)][2]==0):
+                if ((col>0) and self.boxes[(row+i,col-1)][3]==2 and self.boxes[(row+i,col-1)][2]==1) or (col+1<self.cols and self.boxes[(row+i,col+1)][3]==0 and self.boxes[(row+i,col+1)][2]==1) or (self.boxes[(row+i,col)][2]==0):
                     return np.nan
                 # anything in the box below the end of the word
                 if (row+len(word)+1<self.cols) and self.boxes[(row+len(word),col)][0]==True:
                     return np.nan
-                # if (row>0) and self.boxes[(row-1,col)][0]==True:
-                #     return np.nan
-                # if (col>0) and self.boxes[(row+i,col-1)][0]==True: 
-                #     return np.nan
-                # # if there's a final letter from vertical word 
-                # if (self.boxes[(row+i,col)][2]==0) and (self.boxes[(row+i,col)][3]==2):
-                #     print_out((word,entry.word),p_flag)
-                #     return np.nan
+
                 if self.current_build_visualizer[row + i][col] == word[i]:
                     curr_score += 1
                 elif self.current_build_visualizer[row + i][col] == 0:
                     pass 
                 else: 
                     return np.nan
+
         return curr_score
+
 
     def build(self):
         print_out(self.current_build_visualizer,p_flag)
@@ -130,7 +136,6 @@ class Crossword(object):
                 else:
                     self.current_build_visualizer[row][i] = entry.word[i-col]
                     self.boxes[(row,i)] = [True,entry.word,1,1]
-            # self.current_build_visualizer[row][col:(col+len(entry.word))]  = entry.word
         else: 
             print('adding vertical entry')
             for i in range(len(entry.word)):
@@ -145,24 +150,50 @@ class Crossword(object):
                     self.boxes[(row+i,col)] = [True,entry.word,0,1]
         print(self.current_build_visualizer)
 
-    def print_data(self):
+
+    def print_blank(self):
+        print("-" * ((crossword_size * 4) + 1))
+        for i in range((crossword_size*2)-1):
+            even = (i%2==0)
+            rowstring = "|" if (even) else "+"
+            for j in range((crossword_size*4)-1):
+                if not even:
+                    rowstring+= "+" if (j%4 == 3) else " "
+                else:
+                    rowstring+= " "
+                # else: # pseudo/notes for later
+                #     if itstherightindex:
+                #         rowstring += that_entrynum
+                #     else:
+                #         rowstring+= " "
+            print(((rowstring+"|") if (i%2==0) else rowstring+"+"))
+        print("-" * crossword_size * 4)
+
+
+    def print_answers(self):
+        BOLD = '\033[1m'
+        END_BOLD = '\033[0m'
         print("\nPROGRAM FINISH")
         print("-------------------------------\n")
         # print(self.current_build_visualizer) original display with lists
         for i in range(self.cols):
             s = ""
             for j in range(self.cols):
-                temp = str(self.current_build_visualizer[i][j]).upper() +" "
-                if temp[0]=="0":
-                    temp = u"\u2022 "
-                s += temp
+                content = str(self.current_build_visualizer[i][j]).upper()
+                temp = BOLD + content + END_BOLD
+                if content=="0":
+                    temp = u"\u2022"
+                s += temp + " "
             print(s)
         print("\n")
+        entry_num = 0
         for entry in self.current_build:
-            ori = " - Horizontal"
-            if not entry.horizontal:
-                ori = " - Vertical"
-            print(entry.word + ": " + entry.clue + "; At " + "(" + str(entry.start_row) + "," + str(entry.start_col) + ")" + ori)
+            location = (entry.start_row, entry.start_col)
+            if location not in num_to_box.keys():
+                entry_num += 1
+                num_to_box[location] = entry_num
+            ori = " (Horizontal)" if (entry.horizontal) else " (Vertical)"
+            print(str(entry_num) + ori + " at " +  "(" + str(entry.start_row) + "," + str(entry.start_col) + "): " + entry.word.capitalize() + ": " + entry.clue)
         print("\n")
 
 # Class for each entry in the crossword
@@ -212,7 +243,7 @@ def create_wordbank():
     with open("wordbank_processed.txt", 'r') as f: 
         unprocessed_word = f.readline()[:-1]
         while unprocessed_word:
-            print(unprocessed_word)
+            # print(unprocessed_word)
             split = unprocessed_word.split('$')
             wordbank.append(WordBankEntry(split[0], split[1], split[2], split[3]))
             unprocessed_word = f.readline()
@@ -224,13 +255,21 @@ def print_out(x,flag):
         print("\n**"); print(x); print("**\n")
  
 p_flag = False # flag for printing
+print_words = False
 
 ###### END Debugging #######
 create_wordbank()
 score_words(wordbank)
 organize_words(wordbank, crossword_size)
-for word in wordbank:
-    print(word.word + " " + word.type + " " + word.clue + " " + str(word.points) +"\n")
+if print_words:
+    for word in wordbank:
+        print(word.word + "; " + word.type + "; " + word.clue + "; score: " + str(word.points) +".\n")
 a = Crossword(crossword_size, crossword_size, wordbank)
 a.build()
-a.print_data()
+a.print_blank()
+a.print_answers()
+
+# ignore for now 
+box_to_num = dict()
+for k in num_to_box:
+    box_to_num[num_to_box[k]] = k
