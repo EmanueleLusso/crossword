@@ -11,7 +11,7 @@ with open("wordbank.txt", 'r') as f:
     wordbank = f.readlines()
     wordbank = [word.lower().rstrip() for word in wordbank]
 
-# Converts a word's frequency (higher numerical rank = less frequent) to a score. Higher index = higher score = less common word
+# Converts a word's frequency (higher numerical rank = less frequent) to a score in range [0,8]. Higher index = higher score = less common word
 def normalize(idx):
     normalized_idx = 2*math.log10(idx)
     return normalized_idx

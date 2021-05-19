@@ -5,6 +5,8 @@ crossword_size = 10
 frequency_multiplier = 1
 length_multiplier = 1
 position_multiplier = 1
+# List of words in the wordbank in the from [word, definition, frequency ranking]
+wordbank = []
 
 num_to_box = dict()
 
@@ -197,7 +199,6 @@ class Crossword(object):
         print("\n")
 
 # Class for each entry in the crossword
-
 class WordBankEntry(object):
     def __init__(self, word, wordtype, clue, usage):
         self.word = word
@@ -224,21 +225,7 @@ class Square(object):
         self.word = None
         self.horizontal = None 
         self.final = None
-
-# shuffle before starting, remove words that will not fit in the crossword to save computation time
-def organize_words(wordbank, crossword_size):
-    wordbank[:] = [word for word in wordbank if len(word.word) <= crossword_size]
-    random.shuffle(wordbank)
-    wordbank.sort(key=lambda x: x.points, reverse=True)
-
-def score_words(wordbank):
-    for word in wordbank:
-        word.points = length_multiplier*len(word.word) + frequency_multiplier*float(word.usagefrequency)
         
-
-# List of words in the wordbank in the from [word, definition, frequency ranking]
-wordbank = []
-
 def create_wordbank():
     with open("wordbank_processed.txt", 'r') as f: 
         unprocessed_word = f.readline()[:-1]
@@ -248,8 +235,45 @@ def create_wordbank():
             wordbank.append(WordBankEntry(split[0], split[1], split[2], split[3]))
             unprocessed_word = f.readline()
 
-######## Debugging #########
+def score_words(wordbank):
+    for word in wordbank:
+        word.points = length_multiplier*len(word.word) + frequency_multiplier*float(word.usagefrequency)
 
+# shuffle before starting, remove words that will not fit in the crossword to save computation time
+def organize_words(wordbank, crossword_size):
+    wordbank[:] = [word for word in wordbank if len(word.word) <= crossword_size]
+    random.shuffle(wordbank)
+    wordbank.sort(key=lambda x: x.points, reverse=True)
+
+create_wordbank()
+if print_words:
+    for word in wordbank:
+        print(word.word + "; " + word.type + "; " + word.clue + "; score: " + str(word.points) +".\n")
+a = Crossword(crossword_size, crossword_size, wordbank)
+
+feedback = ""
+print("Welcome to Crossword Puzzle Generator! Type \"exit\" to exit this game at any time.  \n")
+while feedback != "exit": 
+    print("Here's a puzzle for you: \n")
+    score_words(wordbank)
+    organize_words(wordbank, crossword_size)
+    a.build()
+    a.print_blank()
+    a.print_answers()
+    feedback = input("Would you like a puzzle that is harder or easier? Type \"harder\" or \"easier\" for a new puzzle or \"exit\" to exit the game.\n")
+    if feedback == "harder":
+        frequency_multiplier = frequency_multiplier + 1
+        length_multiplier = length_multiplier + 1
+    elif feedback == "easier":
+        frequency_multiplier = frequency_multiplier * -1
+        length_multiplier = length_multiplier * -1
+
+# ignore for now 
+box_to_num = dict()
+for k in num_to_box:
+    box_to_num[num_to_box[k]] = k
+
+######## Debugging #########
 def print_out(x,flag):
     if flag: 
         print("\n**"); print(x); print("**\n")
@@ -258,18 +282,3 @@ p_flag = False # flag for printing
 print_words = False
 
 ###### END Debugging #######
-create_wordbank()
-score_words(wordbank)
-organize_words(wordbank, crossword_size)
-if print_words:
-    for word in wordbank:
-        print(word.word + "; " + word.type + "; " + word.clue + "; score: " + str(word.points) +".\n")
-a = Crossword(crossword_size, crossword_size, wordbank)
-a.build()
-a.print_blank()
-a.print_answers()
-
-# ignore for now 
-box_to_num = dict()
-for k in num_to_box:
-    box_to_num[num_to_box[k]] = k
