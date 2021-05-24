@@ -1,0 +1,53 @@
+######################################################################################
+NEW PUZZLE
+
+
+ ______ ______ ______ ______ ______ ______ ______ ______ ______ ______
+|1     |      |2     |      |3     |      |4     |      |5     |      |
+|      |      |      |      |      |      |      | XXXX |      | XXXX |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |6     |      |7     |
+|      | XXXX |      | XXXX |      | XXXX |      |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |8     |      |9     |      |10    |      |      |      |      |
+|      |      |      |      |      |      |      |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |      |      |      |
+|      |      |      |      |      |      |      |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |      |      |      |
+|      |      |      |      |      |      |      |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |      |      |      |
+|      |      |      |      |      |      |      |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |      |      |      |
+|      |      |      |      |      |      | XXXX |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |      |      |      |
+|      |      |      |      | XXXX |      | XXXX |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |      |      |      |
+|      |      |      |      | XXXX |      | XXXX |      |      |      |
+|______|______|______|______|______|______|______|______|______|______|
+|      |      |      |      |      |      |      |      |      |      |
+|      |      | XXXX |      | XXXX | XXXX | XXXX |      |      | XXXX |
+|______|______|______|______|______|______|______|______|______|______|
+Across 
+1: first-rate
+
+Down 
+1: several things grouped together or considered as a whole
+2: involving or characteristic of politics or parties or politicians
+3: the present or immediately coming night
+4: a professional person authorized to practice law; conducts lawsuits or gives legal advice
+5: the quality of being unlike or dissimilar
+6: definitely or positively (`sure' is sometimes used informally for `surely'
+7: be a signal for or a symptom of
+8: graphic art consisting of an artistic composition made by applying paints to a surface
+9: happening unexpectedly
+10: an enlisted man or woman who serves in an army
+
+
+
+

@@ -31,6 +31,19 @@ def puzzle_ID(c):
 
 ###### END Debugging/Testing ############################################################################################################################################################################################
 
+######## Debugging #########
+def print_out(x,flag):
+    if flag: 
+        print("\n**"); print(x); print("**\n")
+ 
+p_flag = False # flag for printing
+print_words = False
+
+if print_words:
+    for word in wordbank:
+        print(word.word + "; " + word.type + "; " + word.clue + "; score: " + str(word.points) +".\n")
+###### END Debugging #######
+
 class Crossword(object):
     def __init__(self, cols, rows, wordbank):
         self.cols = cols #Number of cols
@@ -241,6 +254,142 @@ class Crossword(object):
         for vw in vert_words:
             print(str(vw[0]) + " at " +  "(" + str(vw[2][0]) + "," + str(vw[2][1]) + "): " + vw[3] + ": " + vw[4])
         print("\n")
+        
+    def write_puzzle(self):
+        write_file = open("puzzle.txt", 'a')
+        write_file.write("######################################################################################\n")
+        write_file.write("NEW PUZZLE\n")
+        write_file.write("\n\n")
+        BOLD = '\033[1m'
+        END_BOLD = '\033[0m'
+        # print(self.current_build_visualizer) original display with lists
+
+        entry_num = 0
+        across_words = []
+        down_words = []
+        for entry in self.current_build:
+            location = (entry.start_row, entry.start_col)
+            if location not in num_to_box.keys():
+                entry_num += 1
+                num_to_box[location] = entry_num
+            if entry.horizontal: 
+                across_words.append((num_to_box[location], entry))
+            else:
+                down_words.append((num_to_box[location], entry))
+
+        print_string = ""
+        for i in range(crossword_size):
+            print_string += " ______"
+
+        print_string += "\n"
+
+        for i in range(crossword_size): 
+            for j in range(crossword_size):
+                location = (i,j)
+                print_string += "|"
+                if location in num_to_box.keys():
+                    if num_to_box[location] < 10: 
+                        print_string += str(num_to_box[location]) 
+                        print_string += " "
+                    else: 
+                        print_string += str(num_to_box[location]) 
+                else:
+                    print_string += "  "
+                print_string += "    "
+            print_string += "|"
+            print_string += "\n"
+            for j in range(crossword_size):
+                if self.current_build_visualizer[i][j] != 0:
+                    print_string += "|      "
+                else: 
+                    print_string += "| XXXX "
+            print_string += "|\n"
+            for j in range(crossword_size):
+                print_string += "|______"
+            print_string += "|\n"
+                    
+        write_file.write(print_string)
+        write_file.write("Across \n")
+        for x in across_words:
+            entry_num = x[0]
+            entry = x[1]
+            write_file.write(str(entry_num) + ": " + entry.clue + "\n")
+        write_file.write("\n")
+
+        write_file.write("Down \n")
+        for x in down_words:
+            entry_num = x[0]
+            entry = x[1]
+            write_file.write(str(entry_num) + ": " + entry.clue + "\n")
+        write_file.write("\n\n\n\n")
+
+    def write_solutions(self):
+        write_file = open("puzzle_solution.txt", 'a')
+        write_file.write("######################################################################################\n")
+        write_file.write("NEW PUZZLE\n")
+        write_file.write("\n\n")
+
+        entry_num = 0
+        across_words = []
+        down_words = []
+        for entry in self.current_build:
+            location = (entry.start_row, entry.start_col)
+            if location not in num_to_box.keys():
+                entry_num += 1
+                num_to_box[location] = entry_num
+            if entry.horizontal: 
+                across_words.append((num_to_box[location], entry))
+            else:
+                down_words.append((num_to_box[location], entry))
+        
+        print_string = ""
+        for i in range(crossword_size):
+            print_string += " ______"
+
+        print_string += "\n"
+
+        for i in range(crossword_size): 
+            for j in range(crossword_size):
+                location = (i,j)
+                print_string += "|"
+                if location in num_to_box.keys():
+                    if num_to_box[location] < 10: 
+                        print_string += str(num_to_box[location]) 
+                        print_string += " "
+                    else: 
+                        print_string += str(num_to_box[location]) 
+                else:
+                    print_string += "  "
+                print_string += "    "
+            print_string += "|"
+            print_string += "\n"
+            for j in range(crossword_size):
+                if self.current_build_visualizer[i][j] == 0:
+                    print_string += "| XXXX "
+                else: 
+                    print_string += "|  " 
+                    print_string += self.current_build_visualizer[i][j].upper()
+                    print_string += "   "
+            print_string += "|\n"
+            for j in range(crossword_size):
+                print_string += "|______"
+            print_string += "|\n"
+                    
+        write_file.write(print_string)
+        write_file.write("Across \n")
+        for x in across_words:
+            entry_num = x[0]
+            entry = x[1]
+            write_file.write(str(entry_num) + ": " + entry.word + "\n")
+        write_file.write("\n")
+
+        write_file.write("Down \n")
+        for x in down_words:
+            entry_num = x[0]
+            entry = x[1]
+            write_file.write(str(entry_num) + ": " + entry.word + "\n")
+        write_file.write("\n\n\n\n")
+
 
 #### END DISPLAY FUNCTIONS ############################################################################################## END DISPLAY FUNCTIONS ###########################################################################
 
@@ -297,9 +446,6 @@ def organize_words(wordbank, crossword_size):
     # wordbank.sort(key=lambda x: x.points, reverse=True)
 
 create_wordbank()
-if print_words:
-    for word in wordbank:
-        print(word.word + "; " + word.type + "; " + word.clue + "; score: " + str(word.points) +".\n")
 a = Crossword(crossword_size, crossword_size, wordbank)
 
 def reset():
@@ -326,6 +472,8 @@ while True:
         a.build()
         # a.print_blank() 
         a.print_answers()
+        a.write_puzzle()
+        a.write_solutions()
         print(("avg word length",np.average([len(e[3]) for e in word_set])))
         feedback1 = input("Would you like to keep playing? \n\n(Type \"yes\" to continue, or \"no\" to quit): ")
         while (feedback1.lower()!="yes" and feedback1.lower()!="no"):
@@ -352,7 +500,6 @@ while True:
     else:
         skip = True
         feedback = input("\nPlease retype your answer (you wrote: " + "\"" + feedback + "\"):  ")
-
 
 # ignore for now 
 box_to_num = dict()
