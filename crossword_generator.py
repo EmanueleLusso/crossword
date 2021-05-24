@@ -8,6 +8,8 @@ length_multiplier = 1
 position_multiplier = 1
 AWL = None # average word length
 LTM = 2 # length tolerance margin
+potential = crossword_size*50
+UCL = "qxzyjvwfg"
 wordbank = [] # List of words in the wordbank in the from [word, definition, frequency ranking]
 
 
@@ -126,7 +128,12 @@ class Crossword(object):
                     pass 
                 else: 
                     return np.nan
-
+        sub_score = curr_score
+        for l in word:
+            if l in UCL:
+                curr_score -= sub_score+1
+        if "x" in word:
+            print((word,sub_score,curr_score))
         return curr_score
 
 
@@ -462,7 +469,7 @@ while True:
     print(puzzle_ID(w.word for w in wordbank))
     if not skip:
         # reset()
-        answers = ["harder","easier","exit"]
+        answers = ["harder","easier","exit","same"]
         print("\n" + "-"*140)
         print("Here's a puzzle for you: \n")
         score_words(wordbank)
@@ -497,6 +504,8 @@ while True:
         LTM = min(4,LTM+1)
     elif feedback.lower() == answers[2]: # EXIT
         exit()
+    elif feedback.lower() == answers[3]: # SAME
+        continue
     else:
         skip = True
         feedback = input("\nPlease retype your answer (you wrote: " + "\"" + feedback + "\"):  ")
