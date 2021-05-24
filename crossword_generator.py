@@ -33,19 +33,6 @@ def puzzle_ID(c):
 
 ###### END Debugging/Testing ############################################################################################################################################################################################
 
-######## Debugging #########
-def print_out(x,flag):
-    if flag: 
-        print("\n**"); print(x); print("**\n")
- 
-p_flag = False # flag for printing
-print_words = False
-
-if print_words:
-    for word in wordbank:
-        print(word.word + "; " + word.type + "; " + word.clue + "; score: " + str(word.points) +".\n")
-###### END Debugging #######
-
 class Crossword(object):
     def __init__(self, cols, rows, wordbank):
         self.cols = cols #Number of cols
@@ -65,7 +52,7 @@ class Crossword(object):
         curr_score = 0 #Score = how many intersections there are with existing words. Returns NaN if the word does not fit 
         # horizontal word
         if horizontal: 
-            if len(word)>= (self.cols-LTM) and (random.randint(0,100) < rand_factor): 
+            if len(word)>= (self.cols-LTM) and (random.randint(0,100) < rand_factor-100): 
                 return np.nan
             if col + len(word) > self.cols:
                 return np.nan
@@ -97,7 +84,7 @@ class Crossword(object):
 
         # Vertical word
         else:
-            if len(word)>= (self.cols-LTM) and (random.randint(0,100) < rand_factor): 
+            if len(word)>= (self.cols-LTM) and (random.randint(0,100) < rand_factor-100): 
                 return np.nan
             if row + len(word) > self.rows: 
                 return np.nan
@@ -132,8 +119,6 @@ class Crossword(object):
         for l in word:
             if l in UCL:
                 curr_score -= sub_score+1
-        if "x" in word:
-            print((word,sub_score,curr_score))
         return curr_score
 
 
@@ -149,7 +134,7 @@ class Crossword(object):
             else: 
                 for row in range(self.rows):
                     for col in range(self.cols):
-                        bools = [True, False] if (random.randint(0,100) < 1) else [False, True]
+                        bools = [True, False] if (random.randint(0,100) < 50) else [False, True]
                         for horizontal in bools:
                             scores = np.zeros(len(self.wordbank))
                             for i, word in enumerate(self.wordbank): 
@@ -214,11 +199,6 @@ class Crossword(object):
                     rowstring+= "+" if (j%4 == 3) else " "
                 else:
                     rowstring+= " "
-                # else: # pseudo/notes for later
-                #     if itstherightindex:
-                #         rowstring += that_entrynum
-                #     else:
-                #         rowstring+= " "
             print(((rowstring+"|") if (i%2==0) else rowstring+"+"))
         print("-" * crossword_size * 4)
 
@@ -228,9 +208,9 @@ class Crossword(object):
         word_set.clear()
         BOLD = '\033[1m'
         END_BOLD = '\033[0m'
-        print("---------------")
-        print("PROGRAM FINISH")
-        print("---------------\n")
+        print(BOLD)
+        print("A new puzzle is ready for you! Find it in \"puzzle.txt\"")
+        print(END_BOLD)
         # print(self.current_build_visualizer) original display with lists
         for i in range(self.cols):
             s = ""
@@ -240,8 +220,8 @@ class Crossword(object):
                 if content=="0":
                     temp = u"\u2022"
                 s += temp + " "
-            print(s)
-        print("\n")
+            # print(s)
+        # print("\n")
         entry_num = 0
         for entry in self.current_build:
             location = (entry.start_row, entry.start_col)
@@ -253,14 +233,14 @@ class Crossword(object):
             # print(str(entry_num) + ori + " at " +  "(" + str(entry.start_row) + "," + str(entry.start_col) + "): " + entry.word.capitalize() + ": " + entry.clue)
         hori_words = [elt for elt in word_set if elt[1]]
         vert_words = [elt for elt in word_set if not elt[1]]
-        print("Horizontal:\n")
-        for hw in hori_words:
-            print(str(hw[0]) + " at " +  "(" + str(hw[2][0]) + "," + str(hw[2][1]) + "): " + hw[3] + ": " + hw[4])
-        print("\n")
-        print("Vertical:\n")
-        for vw in vert_words:
-            print(str(vw[0]) + " at " +  "(" + str(vw[2][0]) + "," + str(vw[2][1]) + "): " + vw[3] + ": " + vw[4])
-        print("\n")
+        # print("Horizontal:\n")
+        # for hw in hori_words:
+        #     print(str(hw[0]) + " at " +  "(" + str(hw[2][0]) + "," + str(hw[2][1]) + "): " + hw[3] + ": " + hw[4])
+        # print("\n")
+        # print("Vertical:\n")
+        # for vw in vert_words:
+        #     print(str(vw[0]) + " at " +  "(" + str(vw[2][0]) + "," + str(vw[2][1]) + "): " + vw[3] + ": " + vw[4])
+        # print("\n")
         
     def write_puzzle(self):
         write_file = open("puzzle.txt", 'a')
@@ -464,25 +444,30 @@ feedback = ""
 skip = False
 while True: 
     num_to_box = dict()
-    print(("randfactor",rand_factor))
+    # print(("randfactor",rand_factor))
     # print(w.word for w in a.current_build)
-    print(puzzle_ID(w.word for w in wordbank))
+    # print(puzzle_ID(w.word for w in wordbank))
     if not skip:
         # reset()
         answers = ["harder","easier","exit","same"]
         print("\n" + "-"*140)
-        print("Here's a puzzle for you: \n")
+        # print("A puzzle is ready for you, \n")
         score_words(wordbank)
         organize_words(wordbank, crossword_size)
-        print((len(wordbank),[w.word for w in wordbank]))
+        # print((len(wordbank),[w.word for w in wordbank]))
         a = Crossword(crossword_size, crossword_size, wordbank)
         a.build()
         # a.print_blank() 
         a.print_answers()
         a.write_puzzle()
         a.write_solutions()
-        print(("avg word length",np.average([len(e[3]) for e in word_set])))
-        feedback1 = input("Would you like to keep playing? \n\n(Type \"yes\" to continue, or \"no\" to quit): ")
+        # print("avg word length: " + str(np.average([len(e[3]) for e in word_set])))
+        score_fb = input("\nFinished? How was your puzzle? Rate from 1 to 10: ")
+        while score_fb not in [str(i) for i in range(1,11)]:
+            score_fb = (input("make sure to type your answer correctly: "))
+        score_fb = int(score_fb)
+        differential = 0 if (score_fb > 8) else (0.1 if score_fb > 6 else (0.2 if score_fb > 3 else (0.3)))
+        feedback1 = input("\n\nWould you like to keep playing? \n\n(Type \"yes\" to continue, or \"no\" to quit): ")
         while (feedback1.lower()!="yes" and feedback1.lower()!="no"):
             feedback1 = input("make sure to type your answer correctly: ")
         if feedback1.lower()=="no":
@@ -491,15 +476,15 @@ while True:
          "(Type \"harder\", \"easier\", or \"same\"): ")
     skip = False
     if feedback.lower() == answers[0]: # HARDER
-        print("HARDER") 
-        frequency_multiplier *= 1.5                          # was frequency_multiplier += 1
-        length_multiplier *= 1.5                            # was length_multiplier += 1
+        # print("HARDER") 
+        frequency_multiplier *= (1.5 + differential)                          # was frequency_multiplier += 1
+        length_multiplier *= (1.5 + differential)                            # was length_multiplier += 1
         rand_factor = max(10,rand_factor-20)
         LTM = max(1,LTM-1)
     elif feedback.lower() == answers[1]: # EASIER
-        print("EASIER")
-        frequency_multiplier *= 0.8                        # was frequency_multiplier = frequency_multiplier * -1
-        length_multiplier *= 0.8                            # was length_multiplier = length_multiplier * -1
+        # print("EASIER")
+        frequency_multiplier *= (0.8 - (0.6*differential))                       # was frequency_multiplier = frequency_multiplier * -1
+        length_multiplier *= (0.8 - (0.6*differential))                           # was length_multiplier = length_multiplier * -1
         rand_factor = min(95, rand_factor+20)
         LTM = min(4,LTM+1)
     elif feedback.lower() == answers[2]: # EXIT
